@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="277px" height="276px" viewBox="0 0 277 276">
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#F05644" d="M25.5,100.4c13.9,0,25.1,11.2,25.1,25.1c0,13.9-11.2,25.1-25.1,25.1S0.4,139.3,0.4,125.5
+		C0.4,111.6,11.6,100.4,25.5,100.4L25.5,100.4z"/>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#F05644" d="M251.5,0c13.9,0,25.1,11.2,25.1,25.1s-11.2,25.1-25.1,25.1s-25.1-11.2-25.1-25.1S237.7,0,251.5,0L251.5,0z"/>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#F05644" d="M139.4,250.9c27.7,0,52.8-11.3,71-29.4l17.8,17.7C205.4,261.9,174,276,139.4,276c-34.6,0-66-14.1-88.8-36.8
+		l17.8-17.7C86.6,239.7,111.7,250.9,139.4,250.9L139.4,250.9z"/>
+	<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#F05644" points="126,150.5 126,125.5 226.4,125.5 226.4,150.5 126,150.5 "/>
+	<polyline fill-rule="evenodd" clip-rule="evenodd" fill="#F05644" points="126,150.5 126,150.5 126,25.1 50.6,25.1 50.6,0 151.1,0 151.1,150.5 "/>
+</svg>

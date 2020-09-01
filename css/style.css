@@ -54,6 +54,21 @@ p {
     background-color: #404F56;
     margin: 3px 0;
 }
+.bird {
+    width: 55px;
+    cursor: pointer;
+    height: 55px;
+    position: fixed;
+    z-index: 99999;
+    margin: 20px;
+    top: 0;
+    display: none;
+    right: 0;
+}
+.bird img{
+    width: 100%;
+    height: 100%;
+}
 
 /* /////////////////    HEADER  ///////////////// */
  header {
@@ -65,7 +80,6 @@ p {
      padding: 10px 40px;
      display: flex;
      justify-content: space-between;
-     transition: .5s;
      z-index: 9999;
  }
  
@@ -84,6 +98,8 @@ p {
  }
  .fixed-menu {
      background-color: #30CBC2;
+     margin-top: 5px;
+     box-shadow: 0px -6px 0px #bdbdc0;
  }
  .menu .menu-items a.color {
     color: #fff;
@@ -149,9 +165,23 @@ p {
      border-radius: 50%;
      background-color: #E5E5E5;
      transition: .5s all;
+     width: 394px;
+     height: 394px;
+     overflow: hidden;
  }
  .heroes-img img {
-     width: 100%;
+     width: 50%;
+     margin: 0 auto;
+     padding-top: 20px;
+ }
+ .slick-dots li button:before {
+     font-size: 34px;
+ }
+ .slick-dots {
+     bottom: -60px;
+ }
+ .slick-slide {
+     outline: none;
  }
  .dots {
      display: flex;
@@ -160,7 +190,7 @@ p {
      position: relative;
      top: 20px;
  }
- .dots-item {
+ /* .dots-item {
      width: 7px;
      height: 7px;
      border-radius: 50%;
@@ -169,7 +199,7 @@ p {
  }
  .dots-item:nth-child(3) {
      background-color: #E9B31E;
- }
+ } */
 
 /* //////////////////////       PICTURES WITH TEXT    /////////////////// */
 
