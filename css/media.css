@@ -1,0 +1,21 @@
+@media screen and (max-width: 992px) {
+    .content-block {
+        flex-direction: column;
+    }
+    .heroes-img {
+        order: -1;
+    }
+    header .menu {
+        display: none;
+    }
+    .burger-menu {
+        display: flex;
+    }
+    .right-vertical {
+        right: -80px;
+    }
+    .content-block-text {
+        margin-left: 0;
+        padding-top: 42px;
+    }
+}
