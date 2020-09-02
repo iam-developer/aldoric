@@ -36,7 +36,6 @@ $(document).ready(function() {
       slidesToShow: 1,
       autoplay:true,
       autoplaySpeed:2000,
-      pauseOnFocus: false,
       waitForAnimate: false,
       slidesToScroll: 1, 
     });
