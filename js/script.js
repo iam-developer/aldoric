@@ -47,6 +47,7 @@ window.addEventListener('DOMContentLoaded', () => {
     });
     $('.close-menu').on('click', function() {
       $('.mobile-menu').removeClass('show-menu');
+      $('.mobile-item').removeClass('active-effect');
     });
 
   });
