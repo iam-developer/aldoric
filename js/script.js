@@ -1,6 +1,7 @@
-$(document).ready(function() {
-    $(window).on('scroll', function() {
-      if($(this).scrollTop() != 0) {
+window.addEventListener('DOMContentLoaded', () => {
+  $(document).ready(function () {
+    $(window).on('scroll', function () {
+      if ($(this).scrollTop() != 0) {
         $('header').css('display', 'none');
         $('.bird').css('display', 'block');
       }
@@ -9,22 +10,22 @@ $(document).ready(function() {
         $('.bird').css('display', 'none');
       }
 
-        if($(window).scrollTop()) {
-            $('header').addClass('fixed-menu');
-            $('.menu-items a').addClass('color');
-            $('.logo-img').css('display', 'none');
-            $('.logo-link').css('display', 'block');
-            $('header').css('padding', '14px 40px');
-        }
-        else {
-            $('header').removeClass('fixed-menu');
-            $('.menu-items a').removeClass('color');
-            $('.logo-img').css('display', 'block');
-            $('.logo-link').css('display', 'none');
-            $('header').css('padding', '10px 40px');
-        }
+      if ($(window).scrollTop()) {
+        $('header').addClass('fixed-menu');
+        $('.menu-items a').addClass('color');
+        $('.logo-img').css('display', 'none');
+        $('.logo-link').css('display', 'block');
+        $('header').css('padding', '14px 40px');
+      }
+      else {
+        $('header').removeClass('fixed-menu');
+        $('.menu-items a').removeClass('color');
+        $('.logo-img').css('display', 'block');
+        $('.logo-link').css('display', 'none');
+        $('header').css('padding', '10px 40px');
+      }
     });
-    $( ".bird" ).mouseover(function() {
+    $(".bird").mouseover(function () {
       $(this).css('display', 'none');
       $('header').css('display', 'flex');
     });
@@ -34,22 +35,22 @@ $(document).ready(function() {
       dots: true,
       infinite: true,
       slidesToShow: 1,
-      autoplay:true,
-      autoplaySpeed:2000,
+      autoplay: true,
+      autoplaySpeed: 2000,
       waitForAnimate: false,
-      slidesToScroll: 1, 
+      slidesToScroll: 1,
     });
+// Function for mobile menu:
+    $('.bird-mobile').on('click', function() {
+      $('.mobile-menu').addClass('show-menu');
+      $('.mobile-item').addClass('active-effect');
+    });
+    $('.close-menu').on('click', function() {
+      $('.mobile-menu').removeClass('show-menu');
+    });
+
   });
+});
 
-// Change super heroes
 
-// let heroe = document.querySelectorAll('.hero');
 
-// function superHeroes() {
-//   for(let i = 0; i < heroe.length; i ++) {
-//     heroe[i].style.display = 'none';
-//     heroe[5].style.display = 'block';
-//   }
-// }
-
-// superHeroes();
