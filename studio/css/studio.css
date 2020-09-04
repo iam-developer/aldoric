@@ -76,13 +76,11 @@ a {
 .section--services {
     padding: 0;
 }
-.aldoric-txt-logo {
+.logo-link, .logo-link-mobile {
     display: none;
-}
-.logo-link {
     font-size: 24px;
     color: #464b50;
-    padding-bottom: 18px;
+    padding: 14px 0;
     font-family: 'Inter-SemiBold-600';
 }
 #my-video {
@@ -179,6 +177,14 @@ a {
 .right-footer-txt:last-child {
     padding-right: 0;
 }
+.Mob-bird-none {
+    display: none;
+}
+.nav--primary ul li a {
+    font-family: 'Inter-Regular-400';
+    font-size: 22px;
+}
+
 
 /* -------------     Media queries      ------------- */
 
@@ -232,11 +238,33 @@ a {
         padding: 20px 0;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .main-header--scrolling .header-main.header-main--sticky-yellow {
         background: #30CBC2;
     }
-    
+    .bird-img {
+        display: none;
+    }
+    #logo-mob {
+        display: none;
+    }
+    .logo-link-mobile {
+        display: block;
+    }
+    .header-main .header__mobile-toggle {
+        padding: 26px;
+    }
+    .header-main .header__mobile-navigation {
+        padding-top: 140px;
+        padding-left: 60px;
+        background-color: #404F56;
+    }
+    .logo-link-mobile {
+        padding: 0;
+    }
+    .mobile-bird-img {
+        width: 50px;
+    }
 }
 @media screen and (max-width: 710px) {
     .footer-block {
