@@ -185,7 +185,6 @@ a {
     font-size: 22px;
 }
 
-
 /* -------------     Media queries      ------------- */
 
 @media screen and (max-width: 576px) {
@@ -264,6 +263,12 @@ a {
     }
     .mobile-bird-img {
         width: 50px;
+    }
+}
+@media (min-width: 768px) {
+    .main-header--scrolling .header-main.header-main--sticky-yellow {
+        background: #30CBC2;
+        padding: 5px 0;
     }
 }
 @media screen and (max-width: 710px) {

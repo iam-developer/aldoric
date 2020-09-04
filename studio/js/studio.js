@@ -17,6 +17,7 @@ $(document).ready(function() {
 
 // When you hover on the logo "Bird":
     if($('.header-aside-trigger').hover(function() {
+        $('.main-header--scrolling .header-main.header-main--sticky-yellow').css('marginTop', '5px');
         $('.logo-img').css('display', 'none');
         $('.logo-link').css('display', 'block');
         $('.header-aside-trigger').css('display', 'none');
