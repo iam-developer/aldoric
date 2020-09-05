@@ -74,6 +74,7 @@ p {
     margin: 20px;
     top: 0;
     right: 0;
+    display: none;
 }
 .bird img, .bird-mobile img{
     width: 100%;
@@ -210,12 +211,13 @@ p {
      position: relative;
      top: 0;
      left: 0;
-     padding: 40px 0 50px;
+     padding: 0 0 50px;
      display: flex;
  }
  .content-block {
      display: flex;
-     justify-content: space-between;
+     justify-content: center;
+     flex-wrap: wrap;
      align-items: center;
      width: 100%;
      padding: 0 80px;
@@ -232,12 +234,52 @@ p {
     align-items: center;
     width: 30px;
  }
+ .right-vertical::before {
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 2px;
+    top: 100px;
+    right: -18px;
+    background-color: #DEDEDE;
+    transform: rotate(-90deg);
+}
+.right-vertical::after {
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 2px;
+    bottom: 150px;
+    right: -18px;
+    background-color: #DEDEDE;
+    transform: rotate(-90deg);
+}
  .left-vertical {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     width: 30px;
+}
+.left-vertical::before {
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 2px;
+    top: -12px;
+    left: -19px;
+    background-color: #DEDEDE;
+    transform: rotate(-90deg);
+}
+.left-vertical::after {
+    content: '';
+    position: absolute;
+    width: 70px;
+    height: 2px;
+    bottom: 50px;
+    left: -19px;
+    background-color: #DEDEDE;
+    transform: rotate(-90deg);
 }
 .vertical-right-link {
     transform: rotate(90deg);
@@ -294,13 +336,13 @@ p {
     flex-wrap: wrap;
 }
 .card {
-    margin: 15px;
+    margin: 50px 15px;
+    width: 400px;
+    height: 400px;
 }
 .card img {
     width: 100%;
-}
-.card-top {
-    padding-top: 30px;
+    height: 100%;
 }
 .card-text {
     font-size: 20px;
@@ -341,14 +383,18 @@ p {
 }
 .work-with-us {
     font-family: 'Inter-SemiBold-600';
-    font-size: 14;
+    font-size: 14px;
     color: #404F56;
     margin-top: 40px;
     padding: 20px 70px;
     background-color: transparent;
     border: 1px solid #404F56;
     outline: none;
+    transition: .4s;
     cursor: pointer;
+}
+.work-with-us:hover {
+    background-color: yellow;
 }
 .footer-container {
     display: flex;
@@ -400,4 +446,7 @@ p {
 }
 .right-footer-txt:last-child {
     padding-right: 0;
+}
+.slick-dotted.slick-slider {
+    margin-left: 50px;
 }

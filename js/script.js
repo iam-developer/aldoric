@@ -1,4 +1,4 @@
-window.addEventListener('DOMContentLoaded', () => {
+// window.addEventListener('DOMContentLoaded', () => {
   $(document).ready(function () {
     $(window).on('scroll', function () {
       if ($(this).scrollTop() != 0) {
@@ -49,9 +49,8 @@ window.addEventListener('DOMContentLoaded', () => {
       $('.mobile-menu').removeClass('show-menu');
       $('.mobile-item').removeClass('active-effect');
     });
-
   });
-});
+// });
 
 
 
