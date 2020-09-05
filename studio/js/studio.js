@@ -10,6 +10,8 @@ $(document).ready(function() {
         $('.header-aside-trigger').css('display', 'block');
         $('.logo-img').css('display', 'block');
         $('.logo-link').css('display', 'none');
+        $('.main-header--scrolling .header-main.header-main--sticky-yellow').css('marginTop', '0');
+
         if ($(this).scrollTop() == 0) {
             $('.header-aside-trigger').css('display', 'none');
         }
