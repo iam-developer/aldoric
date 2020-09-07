@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <script>document.documentElement.classList.remove('no-js');
+    <script>
+        document.documentElement.classList.remove('no-js');
         document.documentElement.classList.add('js')
 
         var prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
@@ -22,12 +23,14 @@
         document.documentElement.style.setProperty('--vh', vh + 'px');
 
         // We listen to the resize event
-        window.addEventListener('resize', function () {
+        window.addEventListener('resize', function() {
             // We execute the same script as before
             var vh = window.innerHeight * 0.01;
             document.documentElement.style.setProperty('--vh', vh + 'px');
-        });</script>
-    <script>(function (w, d, s, l, i) {
+        });
+    </script>
+    <script>
+        (function(w, d, s, l, i) {
             w[l] = w[l] || [];
             w[l].push({
                 'gtm.start': new Date().getTime(),
@@ -40,7 +43,8 @@
             j.src =
                 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
             f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-WNB8PTD');</script>
+        })(window, document, 'script', 'dataLayer', 'GTM-WNB8PTD');
+    </script>
     <link rel="stylesheet" href="css\style.css?v=1598425104" media="screen">
     <link rel="stylesheet" href="css\print.css?v=1598425104" media="print"><noscript>
     <link rel="stylesheet" href="css\no-js.css" media="screen">
@@ -48,8 +52,7 @@
     <meta name="theme-color" content="#1b1d1e">
     <link rel="apple-touch-icon" href="images\favicons\apple-touch-icon.png">
     <title>Websites, eCommerce &amp; Apps | Humaan: World-class digital</title>
-    <meta name="description"
-        content="Since 2010 we’ve been working with amazing organisations to create meaningful impact and compelling experiences that deliver results.">
+    <meta name="description" content="Since 2010 we’ve been working with amazing organisations to create meaningful impact and compelling experiences that deliver results.">
     <meta name="robots" content="index, follow">
     <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
     <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
@@ -57,8 +60,7 @@
     <meta property="og:locale" content="en_US">
     <meta property="og:type" content="article">
     <meta property="og:title" content="Websites, eCommerce &amp; Apps | Humaan: World-class digital">
-    <meta property="og:description"
-        content="Since 2010 we’ve been working with amazing organisations to create meaningful impact and compelling experiences that deliver results.">
+    <meta property="og:description" content="Since 2010 we’ve been working with amazing organisations to create meaningful impact and compelling experiences that deliver results.">
     <meta property="og:url" content="https://humaan.com/about/">
     <meta property="og:site_name" content="Humaan: World class digital products">
     <meta property="article:publisher" content="https://www.facebook.com/humaan">
@@ -72,18 +74,67 @@
     <meta name="twitter:site" content="@wearehumaan">
     <link rel="stylesheet" href="css/studio.css">
 
-    <script type="application/ld+json"
-        class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://humaan.com/#organization","name":"Humaan","url":"https://humaan.com/","sameAs":["https://www.facebook.com/humaan","https://www.instagram.com/wearehumaan/","https://au.linkedin.com/company/humaan","https://twitter.com/wearehumaan"],"logo":{"@type":"ImageObject","@id":"https://humaan.com/#logo","inLanguage":"en-AU","url":"https://humaan.com/wp-content/uploads/2020/04/Cover1.png","width":1000,"height":500,"caption":"Humaan"},"image":{"@id":"https://humaan.com/#logo"}},{"@type":"WebSite","@id":"https://humaan.com/#website","url":"https://humaan.com/","name":"Humaan: World class digital products","description":"Humaan","publisher":{"@id":"https://humaan.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":"https://humaan.com/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-AU"},{"@type":"WebPage","@id":"https://humaan.com/about/#webpage","url":"https://humaan.com/about/","name":"Websites, eCommerce & Apps | Humaan: World-class digital","isPartOf":{"@id":"https://humaan.com/#website"},"datePublished":"2016-09-16T02:21:43+00:00","dateModified":"2020-05-25T08:06:28+00:00","description":"Since 2010 we\u2019ve been working with amazing organisations to create meaningful impact and compelling experiences that deliver results.","inLanguage":"en-AU","potentialAction":[{"@type":"ReadAction","target":["https://humaan.com/about/"]}]}]}</script>
+    <script type="application/ld+json" class="yoast-schema-graph">
+        {
+            "@context": "https://schema.org",
+            "@graph": [{
+                "@type": "Organization",
+                "@id": "https://humaan.com/#organization",
+                "name": "Humaan",
+                "url": "https://humaan.com/",
+                "sameAs": ["https://www.facebook.com/humaan", "https://www.instagram.com/wearehumaan/", "https://au.linkedin.com/company/humaan", "https://twitter.com/wearehumaan"],
+                "logo": {
+                    "@type": "ImageObject",
+                    "@id": "https://humaan.com/#logo",
+                    "inLanguage": "en-AU",
+                    "url": "https://humaan.com/wp-content/uploads/2020/04/Cover1.png",
+                    "width": 1000,
+                    "height": 500,
+                    "caption": "Humaan"
+                },
+                "image": {
+                    "@id": "https://humaan.com/#logo"
+                }
+            }, {
+                "@type": "WebSite",
+                "@id": "https://humaan.com/#website",
+                "url": "https://humaan.com/",
+                "name": "Humaan: World class digital products",
+                "description": "Humaan",
+                "publisher": {
+                    "@id": "https://humaan.com/#organization"
+                },
+                "potentialAction": [{
+                    "@type": "SearchAction",
+                    "target": "https://humaan.com/?s={search_term_string}",
+                    "query-input": "required name=search_term_string"
+                }],
+                "inLanguage": "en-AU"
+            }, {
+                "@type": "WebPage",
+                "@id": "https://humaan.com/about/#webpage",
+                "url": "https://humaan.com/about/",
+                "name": "Websites, eCommerce & Apps | Humaan: World-class digital",
+                "isPartOf": {
+                    "@id": "https://humaan.com/#website"
+                },
+                "datePublished": "2016-09-16T02:21:43+00:00",
+                "dateModified": "2020-05-25T08:06:28+00:00",
+                "description": "Since 2010 we\u2019ve been working with amazing organisations to create meaningful impact and compelling experiences that deliver results.",
+                "inLanguage": "en-AU",
+                "potentialAction": [{
+                    "@type": "ReadAction",
+                    "target": ["https://humaan.com/about/"]
+                }]
+            }]
+        }
+    </script>
 </head>
 
-<body
-    class="page-template page-template-template-about page-template-template-about-php page page-id-3732 template-about about"
-    style="background-color:#ffffff;"> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WNB8PTD"
+<body class="page-template page-template-template-about page-template-template-about-php page page-id-3732 template-about about" style="background-color:#ffffff;"> <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WNB8PTD"
             height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class=" container--outer" data-barba="wrapper">
-        <div class="container--page" data-barba="container" data-barba-namespace="about" data-theme="yellow"><a
-                class=" skip-to-link" href="#skip-to-content">Skip to Content</a> <a class="skip-to-link"
-                href="#skip-to-navigation">Skip to Navigation</a> <noscript>
+        <div class="container--page" data-barba="container" data-barba-namespace="about" data-theme="yellow"><a class=" skip-to-link" href="#skip-to-content">Skip to Content</a> <a class="skip-to-link" href="#skip-to-navigation">Skip to Navigation</a> <noscript>
                 <div class="alert alert--no-js">
                     <p>For the best experience, please enable JavaScript.</p>
                 </div>
@@ -93,43 +144,39 @@
                     <div class="header__inner">
                         <div>
                             <div class="logotip">
-                               <a href="http://iam-developer.github.io/aldoric/"><div id="logo-mob"><img class="logo-img" src="images/logo.png" alt="Logo"></div></a>
+                                <a href="http://iam-developer.github.io/aldoric/">
+                                    <div id="logo-mob"><img class="logo-img" src="images/logo.png" alt="Logo"></div>
+                                </a>
                                 <div class="aldoric-txt-logo">
                                     <a href="http://iam-developer.github.io/aldoric/" class="logo-link">Aldoric</a>
                                     <a href="http://iam-developer.github.io/aldoric/" class="logo-link-mobile">Aldoric</a>
                                 </div>
                             </div>
                         </div>
-                        <div> 
-                    <button class="header__mobile-toggle header__mobile-toggle--yellow" data-component="nav-toggle"> 
+                        <div>
+                            <button class="header__mobile-toggle header__mobile-toggle--yellow" data-component="nav-toggle"> 
                         <span class="sticky-face sticky-face--yellow">
                             <img class="mobile-bird-img" src="images/bird-logo.png" alt="">
                         </span>
                         <span class="hidden">Toggle Mobile Menu</span> 
                     </button>
-                            <div class="header__mobile-navigation"><a href="..\index.htm" class="header__mobile-logo">
-                                    <span class="hidden">Humaan Home</span> <span
-                                        class="sticky-face sticky-face--yellow">
+                            <div class="header__mobile-navigation">
+                                <a href="..\index.htm" class="header__mobile-logo">
+                                    <span class="hidden">Humaan Home</span> <span class="sticky-face sticky-face--yellow">
                                          </span> </a>
-                                <nav class="nav nav--primary" id="skip-to-navigation" itemscope="itemscope"
-                                    itemtype="http://schema.org/SiteNavigationElement">
+                                <nav class="nav nav--primary" id="skip-to-navigation" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement">
                                     <h2 class="hidden">Main Navigation</h2>
                                     <ul>
-                                        <li id="menu-item-7114"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7114">
-                                            <a href="..\work\index.htm">Cases</a></li>
-                                        <li id="menu-item-5483"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-3732 current_page_item menu-item-5483">
-                                            <a href="index.htm">Studio</a></li>
-                                        <li id="menu-item-5480"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5480">
-                                            <a href="..\team\index.htm">Team</a></li>
-                                        <li id="menu-item-5481"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5481">
-                                            <a href="..\blog\index.htm">Blog</a></li>
-                                        <li id="menu-item-5482"
-                                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5482">
-                                            <a href="..\contact\index.htm">Contact</a></li>
+                                        <li id="menu-item-7114" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7114">
+                                            <a href="#">Cases</a></li>
+                                        <li id="menu-item-5483" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-3732 current_page_item menu-item-5483">
+                                            <a href="#">Studio</a></li>
+                                        <li id="menu-item-5480" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5480">
+                                            <a href="..\team">Team</a></li>
+                                        <li id="menu-item-5481" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5481">
+                                            <a href="#">Blog</a></li>
+                                        <li id="menu-item-5482" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5482">
+                                            <a href="..\contact">Contact</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -142,8 +189,7 @@
                 <img class="bird-img" src="images/bird-logo.png" alt="">
             </div>
             <main id="skip-to-content" class="content-main">
-                <div class="banner banner--about waypoint-background waypoint-background-current"
-                    style="--banner-background-color: #fff;" data-background="#fff">
+                <div class="banner banner--about waypoint-background waypoint-background-current" style="--banner-background-color: #fff;" data-background="#fff">
                     <div class="container container--md">
                         <div class="banner__caption">
                             <div class="banner__caption-inner">
@@ -158,31 +204,25 @@
                             </div>
                             <div class="grid--stats">
                                 <div class="card card--stat" style="order: 1;">
-                                    <p> <span class="about-card__number" data-number="130">8</span> <span
-                                            class="about-card__symbol">x</span> <span class="card__description">Site of Day</span></p>
+                                    <p> <span class="about-card__number" data-number="130">8</span> <span class="about-card__symbol">x</span> <span class="card__description">Site of Day</span></p>
                                 </div>
                                 <div class="card card--stat" style="order: 2;">
-                                    <p> <span class="about-card__number" data-number="100">13</span> <span
-                                            class="about-card__symbol">x</span> <span class="card__description">Honorable Mentions</span></p>
+                                    <p> <span class="about-card__number" data-number="100">13</span> <span class="about-card__symbol">x</span> <span class="card__description">Honorable Mentions</span></p>
                                 </div>
                                 <div class="card card--stat" style="order: 3;">
-                                    <p> <span class="about-card__number" data-number="50">5</span> <span
-                                            class="about-card__symbol">x</span> <span class="card__description">Site of Month</span></p>
+                                    <p> <span class="about-card__number" data-number="50">5</span> <span class="about-card__symbol">x</span> <span class="card__description">Site of Month</span></p>
                                 </div>
                                 <div class="card card--stat" style="order: 4;">
-                                    <p> <span class="about-card__number" data-number="Aus">10</span> <span
-                                            class="about-card__symbol">+</span> <span class="card__description">Year of Experience</span></p>
+                                    <p> <span class="about-card__number" data-number="Aus">10</span> <span class="about-card__symbol">+</span> <span class="card__description">Year of Experience</span></p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                
-                <section class="section--testimonials waypoint-background js--section-testimonials"
-                    data-background="#fff" style="--waypoint-background: #fff;">
+
+                <section class="section--testimonials waypoint-background js--section-testimonials" data-background="#fff" style="--waypoint-background: #fff;">
                     <div class="container container--md">
-                        <h2 class="hidden">What brands say about Humaan</h2><svg class="decoration--quote"
-                            xmlns="http://www.w3.org/2000/svg" width="31" height="24" viewbox="0 0 31 24">
+                        <h2 class="hidden">What brands say about Humaan</h2><svg class="decoration--quote" xmlns="http://www.w3.org/2000/svg" width="31" height="24" viewbox="0 0 31 24">
                             <path fill="#404347" fill-rule="evenodd"
                                 d="M12.3 18.6v4.5C4.433 22.567.5 18.533.5 11V.7h11.8v11.8H7.5c0 3.467 1.6 5.5 4.8 6.1zm18.1 0v4.5c-7.867-.533-11.8-4.567-11.8-12.1V.7h11.8v11.8h-4.8c0 3.467 1.6 5.5 4.8 6.1z">
                             </path>
@@ -194,17 +234,12 @@
                                 <div class="swiper-wrapper">
                                     <div class="slider__slide swiper-slide">
                                         <div class="block--testimonial">
-                                            <p>It's their ability to interrogate and solve their clients problems that
-                                                makes them exceptional. I've worked with some great digital agencies
-                                                over the years, but Humaan delivered the best results.</p>
+                                            <p>It's their ability to interrogate and solve their clients problems that makes them exceptional. I've worked with some great digital agencies over the years, but Humaan delivered the best results.</p>
                                             <div class="block__cite">
                                                 <div>
-                                                    <div class="block__icon"> <svg width="442" height="448"
-                                                            viewbox="0 0 442 448" xmlns="http://www.w3.org/2000/svg">
-                                                            <path
-                                                                d="M41 167.937c22.091 0 40 17.908 40 40s-17.909 40-40 40-40-17.908-40-40 17.909-40 40-40zm360-160c22.091 0 40 17.908 40 40s-17.909 40-40 40c-22.092 0-40-17.908-40-40s17.908-40 40-40zm-200 240v-200H81v-40h160v200h120v40H201zm21.356 160c44.111 0 84.111-17.943 113.084-46.915l28.27 28.269c-36.214 36.216-86.214 58.646-141.354 58.646-55.14 0-105.14-22.43-141.356-58.646l28.272-28.27c28.972 28.973 68.972 46.916 113.084 46.916z"
-                                                                fill="#F05644" fill-rule="evenodd"></path>
-                                                        </svg></div>
+                                                    <div class="block__icon">
+                                                        <img src="images/Ellipse1.png" alt="">
+                                                    </div>
                                                 </div>
                                                 <div>
                                                     <p>Dan Stinton<br> <small>Head of Digital, Seven West
@@ -215,19 +250,13 @@
                                     </div>
                                     <div class="slider__slide swiper-slide">
                                         <div class="block--testimonial">
-                                            <p>From start to finish, our experience with Humaan was nothing short of
-                                                fabulous. Jess Stanley, our account manager, actively engaged us in
-                                                developing a state-of-the-art website and brought our vision to fruition
-                                                in a timely manner. Further, the continued customer-support in service
-                                                of the website is exceptional.</p>
+                                            <p>From start to finish, our experience with Humaan was nothing short of fabulous. Jess Stanley, our account manager, actively engaged us in developing a state-of-the-art website and brought our vision to fruition
+                                                in a timely manner. Further, the continued customer-support in service of the website is exceptional.</p>
                                             <div class="block__cite">
                                                 <div>
-                                                    <div class="block__icon"> <svg width="442" height="448"
-                                                            viewbox="0 0 442 448" xmlns="http://www.w3.org/2000/svg">
-                                                            <path
-                                                                d="M240.752 128.497h40.001v79.998h40.246v40.002H200.998l.001-40.002h39.753v-79.998zM41 47.937v-40h120v40H41zm60 40c33.137 0 60 26.862 60 60 0 33.138-26.863 60-60 60-33.139 0-60-26.862-60-60 0-33.138 26.861-60 60-60zm0 40c-11.028 0-20 8.973-20 20s8.972 20 20 20c11.026 0 20-8.973 20-20s-8.974-20-20-20zm300 40.56c-22.093 0-40-17.908-40-40 0-22.093 17.907-40 40-40 22.091 0 40 17.907 40 40 0 22.092-17.909 40-40 40zm0 79.44h40c0 110.28-89.721 200-200 200-110.28 0-200-89.72-200-200h40c0 88.226 71.774 160 160 160 88.225 0 160-71.774 160-160z"
-                                                                fill="#FACFD0" fill-rule="evenodd"></path>
-                                                        </svg></div>
+                                                    <div class="block__icon">
+                                                        <img src="images/Ellipse2.png" alt="">
+                                                    </div>
                                                 </div>
                                                 <div>
                                                     <p>Mary Henry<br> <small>Director of Community Relations, Wesley
@@ -238,18 +267,13 @@
                                     </div>
                                     <div class="slider__slide swiper-slide">
                                         <div class="block--testimonial">
-                                            <p>I can’t speak highly enough of the team at Humaan. They listened intently
-                                                to our requirements and crafted a stunning website that exceeded our
-                                                expectations, all within a very short timeframe. Working with Humaan is
-                                                an absolute joy. I’d recommend them in a heartbeat.</p>
+                                            <p>I can’t speak highly enough of the team at Humaan. They listened intently to our requirements and crafted a stunning website that exceeded our expectations, all within a very short timeframe. Working with Humaan
+                                                is an absolute joy. I’d recommend them in a heartbeat.</p>
                                             <div class="block__cite">
                                                 <div>
-                                                    <div class="block__icon"> <svg width="442" height="448"
-                                                            viewbox="0 0 442 448" xmlns="http://www.w3.org/2000/svg">
-                                                            <path
-                                                                d="M161 287.937v-280h40v240h120v40H161zm200-160c-22.092 0-40-17.908-40-40s17.908-40 40-40c22.091 0 40 17.908 40 40s-17.909 40-40 40zM201 411.396v40c-110.28 0-200-89.721-200-200h40c0 88.225 71.775 160 160 160z"
-                                                                fill="#633A86" fill-rule="evenodd"></path>
-                                                        </svg></div>
+                                                    <div class="block__icon">
+                                                        <img src="images/Ellipse1.png" alt="">
+                                                    </div>
                                                 </div>
                                                 <div>
                                                     <p>Josh Maisey<br> <small>Head of Digital, Spookfish</small></p>
@@ -259,20 +283,13 @@
                                     </div>
                                     <div class="slider__slide swiper-slide">
                                         <div class="block--testimonial">
-                                            <p>Having worked with Humaan on numerous other projects, we knew they'd be a
-                                                great fit for our rebrand, redesign, and mobile app development. The
-                                                apps were developed from scratch and we've just relaunched on both iOS
-                                                and Android to amazing reviews and feedback. This was a great challenge
-                                                that took a lot of hard work and effort to overcome and we couldn't be
-                                                happier with the results.</p>
+                                            <p>Having worked with Humaan on numerous other projects, we knew they'd be a great fit for our rebrand, redesign, and mobile app development. The apps were developed from scratch and we've just relaunched on both
+                                                iOS and Android to amazing reviews and feedback. This was a great challenge that took a lot of hard work and effort to overcome and we couldn't be happier with the results.</p>
                                             <div class="block__cite">
                                                 <div>
-                                                    <div class="block__icon"> <svg width="442" height="448"
-                                                            viewbox="0 0 442 448" xmlns="http://www.w3.org/2000/svg">
-                                                            <path
-                                                                d="M201 207.937c0 22.057 17.944 40 40 40s40-17.943 40-40v-80c0-44.111 35.888-80 80-80s80 35.889 80 80h-40c0-22.056-17.944-40-40-40s-40 17.944-40 40v80c0 44.112-35.888 80-80 80s-80-35.888-80-80h40zm-160 40c0 88.226 71.775 160 160 160v40c-110.28 0-200-89.72-200-200h40zm80-120c-22.092 0-40-17.908-40-40s17.908-40 40-40c22.091 0 40 17.908 40 40s-17.909 40-40 40z"
-                                                                fill="#DDCEE5" fill-rule="evenodd"></path>
-                                                        </svg></div>
+                                                    <div class="block__icon">
+                                                        <img src="images/Ellipse2.png" alt="">
+                                                    </div>
                                                 </div>
                                                 <div>
                                                     <p>Esra'a Al Shafei<br> <small>Director, Majal</small></p>
@@ -282,19 +299,13 @@
                                     </div>
                                     <div class="slider__slide swiper-slide">
                                         <div class="block--testimonial">
-                                            <p>Locimo loves working with Humaan. Humaan is filled to the brim with
-                                                passionate, creative people, and that shows in the quality of their
-                                                work. Always professional, and very responsive. We trust Humaan
-                                                implicitly, and see them not as a supplier, but as a partner to our
-                                                growing business.</p>
+                                            <p>Locimo loves working with Humaan. Humaan is filled to the brim with passionate, creative people, and that shows in the quality of their work. Always professional, and very responsive. We trust Humaan implicitly,
+                                                and see them not as a supplier, but as a partner to our growing business.</p>
                                             <div class="block__cite">
                                                 <div>
-                                                    <div class="block__icon"> <svg width="442" height="448"
-                                                            viewbox="0 0 442 448" xmlns="http://www.w3.org/2000/svg">
-                                                            <path
-                                                                d="M394.787 82.64l-45.858 45.856 45.858 45.86-28.285 28.284-45.858-45.857-45.857 45.857-28.285-28.284 45.857-45.86-45.857-45.856 28.285-28.284 45.857 45.856 45.858-45.856 28.285 28.284zM200.645 411.396c88.225 0 160-71.775 160-160h40c0 110.279-89.72 200-200 200s-200-89.721-200-200h40c0 88.225 71.775 160 160 160zm-100-343.46c33.136 0 60 26.863 60 60 0 33.139-26.864 60-60 60-33.138 0-60-26.861-60-60 0-33.137 26.862-60 60-60zm0 40c-11.028 0-20 8.974-20 20 0 11.028 8.972 20 20 20s20-8.972 20-20c0-11.026-8.972-20-20-20zm-60-59.999v-40h120v40h-120z"
-                                                                fill="#FFC938" fill-rule="evenodd"></path>
-                                                        </svg></div>
+                                                    <div class="block__icon">
+                                                        <img src="images/Ellipse1.png" alt="">
+                                                    </div>
                                                 </div>
                                                 <div>
                                                     <p>Tarryn & Charlene<br> <small>Founders, Locimo</small></p>
@@ -304,21 +315,14 @@
                                     </div>
                                     <div class="slider__slide swiper-slide">
                                         <div class="block--testimonial">
-                                            <p>Working with Humaan over the years has been an absolute pleasure. Their
-                                                understanding of digital design, user experience and the technology
-                                                layer is truly world class and invaluable to us in realising our vision
-                                                to deliver a seamless, responsive and innovative digital environment for
-                                                our students. Their innovative ideas and ways of working have enhanced
-                                                our planned outcomes and positively impacted all stakeholders they have
-                                                interacted with.</p>
+                                            <p>Working with Humaan over the years has been an absolute pleasure. Their understanding of digital design, user experience and the technology layer is truly world class and invaluable to us in realising our vision
+                                                to deliver a seamless, responsive and innovative digital environment for our students. Their innovative ideas and ways of working have enhanced our planned outcomes and positively impacted all stakeholders
+                                                they have interacted with.</p>
                                             <div class="block__cite">
                                                 <div>
-                                                    <div class="block__icon"> <svg width="442" height="448"
-                                                            viewbox="0 0 442 448" xmlns="http://www.w3.org/2000/svg">
-                                                            <path
-                                                                d="M41 247.937c0 88.226 71.775 160 160 160v40c-110.28 0-200-89.72-200-200h40zm200-200v-40h160v40H241zm-160 80c-22.056 0-40 17.944-40 40H1c0-44.111 35.888-80 80-80s80 35.889 80 80h-40c0-22.056-17.944-40-40-40zm120 160c22.056 0 40-17.943 40-40h40c0 44.112-35.888 80-80 80s-80-35.888-80-80h40c0 22.057 17.944 40 40 40zM366.857 93.794l28.285 28.285-45.858 45.86 45.858 45.855-28.285 28.285-120-120 28.285-28.285L321 139.651l45.857-45.857z"
-                                                                fill="#99DAF2" fill-rule="evenodd"></path>
-                                                        </svg></div>
+                                                    <div class="block__icon">
+                                                        <img src="images/Ellipse2.png" alt="">
+                                                    </div>
                                                 </div>
                                                 <div>
                                                     <p>Peter van Schie<br> <small>Manager Digital User Experience &
@@ -329,19 +333,13 @@
                                     </div>
                                     <div class="slider__slide swiper-slide">
                                         <div class="block--testimonial">
-                                            <p>The new Sodashi website has delivered on many levels, in terms of design,
-                                                usability and on our commercial goals. We love it, and many customers
-                                                have told us they do too. Not only have we seen increased online sales;
-                                                we’re also seeing B2B interest grow from the kind of customers we
-                                                previously had trouble attracting.</p>
+                                            <p>The new Sodashi website has delivered on many levels, in terms of design, usability and on our commercial goals. We love it, and many customers have told us they do too. Not only have we seen increased online
+                                                sales; we’re also seeing B2B interest grow from the kind of customers we previously had trouble attracting.</p>
                                             <div class="block__cite">
                                                 <div>
-                                                    <div class="block__icon"> <svg width="442" height="448"
-                                                            viewbox="0 0 442 448" xmlns="http://www.w3.org/2000/svg">
-                                                            <path
-                                                                d="M321 40.998c-22.056 0-40 17.944-40 40h-40c0-44.112 35.888-80 80-80s80 35.888 80 80h-40c0-22.056-17.944-40-40-40zm-120 360c88.225 0 160-71.775 160-160h40c0 110.28-89.72 200-200 200v-40zm40-200h40c0 44.112-35.888 80-80 80s-80-35.888-80-80v-120H1v-40h160v160c0 22.056 17.944 40 40 40s40-17.944 40-40z"
-                                                                fill="#DDCEE5" fill-rule="evenodd"></path>
-                                                        </svg></div>
+                                                    <div class="block__icon">
+                                                        <img src="images/Ellipse1.png" alt="">
+                                                    </div>
                                                 </div>
                                                 <div>
                                                     <p>Donna Wells<br> <small>General Manager, Sodashi</small></p>
@@ -351,18 +349,13 @@
                                     </div>
                                     <div class="slider__slide swiper-slide">
                                         <div class="block--testimonial">
-                                            <p>Jay, and the Humaan team, have been the benchmark in web development
-                                                across Perth (potentially Australia) for the last decade. Creative,
-                                                innovative, original, and very efficient – is the best way to describe
+                                            <p>Jay, and the Humaan team, have been the benchmark in web development across Perth (potentially Australia) for the last decade. Creative, innovative, original, and very efficient – is the best way to describe
                                                 their approach. Highly recommend!</p>
                                             <div class="block__cite">
                                                 <div>
-                                                    <div class="block__icon"> <svg width="442" height="448"
-                                                            viewbox="0 0 442 448" xmlns="http://www.w3.org/2000/svg">
-                                                            <path
-                                                                d="M401 240.998h40c0 110.28-89.721 200-200 200v-40c88.225 0 160-71.775 160-160zm-320-200c22.091 0 40 17.908 40 40s-17.909 40-40 40c-22.092 0-40-17.908-40-40s17.908-40 40-40zm160 240H81v-40h120v-200h160v40H241v200z"
-                                                                fill="#FFC938" fill-rule="evenodd"></path>
-                                                        </svg></div>
+                                                    <div class="block__icon">
+                                                        <img src="images/Ellipse2.png" alt="">
+                                                    </div>
                                                 </div>
                                                 <div>
                                                     <p>Rene LeMerle<br> <small>Head of Marketing, Bonfire</small></p>
@@ -372,21 +365,14 @@
                                     </div>
                                     <div class="slider__slide swiper-slide">
                                         <div class="block--testimonial">
-                                            <p>We couldn’t have worked with a better team to develop our new website.
-                                                Jess and her team are efficient, creative and really care about your
-                                                project. They put time and effort in with communication as well as
-                                                making sure every fine detail is thought about. We are more than happy
-                                                with the finished product and have seen improvements in conversion rate,
-                                                bounce rate and time on page almost instantly. We would recommend Humaan
-                                                to anyone!</p>
+                                            <p>We couldn’t have worked with a better team to develop our new website. Jess and her team are efficient, creative and really care about your project. They put time and effort in with communication as well as
+                                                making sure every fine detail is thought about. We are more than happy with the finished product and have seen improvements in conversion rate, bounce rate and time on page almost instantly. We would recommend
+                                                Humaan to anyone!</p>
                                             <div class="block__cite">
                                                 <div>
-                                                    <div class="block__icon"> <svg width="442" height="448"
-                                                            viewbox="0 0 442 448" xmlns="http://www.w3.org/2000/svg">
-                                                            <path
-                                                                d="M241 220.998c22.091 0 40 17.908 40 40s-17.909 40-40 40c-22.092 0-40-17.908-40-40s17.908-40 40-40zm-120-99.44c-22.056 0-40 17.943-40 40 0 22.056 17.944 40 40 40s40-17.944 40-40c0-22.057-17.944-40-40-40zm0 120c-44.183 0-80-35.817-80-80 0-44.184 35.817-80 80-80s80 35.816 80 80c0 44.183-35.817 80-80 80zm200-160c-22.056 0-40 17.943-40 40 0 22.056 17.944 40 40 40s40-17.944 40-40c0-22.057-17.944-40-40-40zm0 120c-44.183 0-80-35.817-80-80 0-44.184 35.817-80 80-80s80 35.816 80 80c0 44.183-35.817 80-80 80zm-80 199.44c88.225 0 160-71.775 160-160h40c0 110.28-89.72 200-200 200v-40z"
-                                                                fill="#FACFD0" fill-rule="evenodd"></path>
-                                                        </svg></div>
+                                                    <div class="block__icon">
+                                                        <img src="images/Ellipse1.png" alt="">
+                                                    </div>
                                                 </div>
                                                 <div>
                                                     <p>Hannah Martin<br> <small>Digital Marketing Manager, National
@@ -397,18 +383,13 @@
                                     </div>
                                     <div class="slider__slide swiper-slide">
                                         <div class="block--testimonial">
-                                            <p>Humaan are an exceptional development team that have been absolute
-                                                pleasure to work with. Not only are they always accommodating and
-                                                professional but they will always find a solution to any problem that
-                                                arises.</p>
+                                            <p>Humaan are an exceptional development team that have been absolute pleasure to work with. Not only are they always accommodating and professional but they will always find a solution to any problem that arises.
+                                            </p>
                                             <div class="block__cite">
                                                 <div>
-                                                    <div class="block__icon"> <svg width="442" height="448"
-                                                            viewbox="0 0 442 448" xmlns="http://www.w3.org/2000/svg">
-                                                            <path
-                                                                d="M301 60.998c33.137 0 60 26.863 60 60s-26.863 60-60 60c-33.138 0-60-26.863-60-60s26.862-60 60-60zm0 40c-11.028 0-20 8.972-20 20s8.972 20 20 20c11.027 0 20-8.972 20-20s-8.973-20-20-20zm-220 20c-22.056 0-40 17.944-40 40H1c0-44.112 35.888-80 80-80s80 35.888 80 80v80c0 22.056 17.944 40 40 40s40-17.944 40-40h40c0 44.112-35.888 80-80 80s-80-35.888-80-80v-80c0-22.056-17.944-40-40-40zm160 280c88.225 0 160-71.775 160-160h40c0 110.28-89.72 200-200 200v-40zm0-360v-40h120v40H241z"
-                                                                fill="#F05644" fill-rule="evenodd"></path>
-                                                        </svg></div>
+                                                    <div class="block__icon">
+                                                        <img src="images/Ellipse2.png" alt="">
+                                                    </div>
                                                 </div>
                                                 <div>
                                                     <p>Sally McFadyen<br> <small>Head of 7Travel</small></p>
@@ -418,18 +399,14 @@
                                     </div>
                                     <div class="slider__slide swiper-slide">
                                         <div class="block--testimonial">
-                                            <p>Their skill and expertise in digital design and development is self
-                                                evident. I knew the finished product would be the envy of our
-                                                competitors. A true partnership that's taken dusk's digital business to
-                                                the next level.</p>
+                                            <p>Their skill and expertise in digital design and development is self evident. I knew the finished product would be the envy of our competitors. A true partnership that's taken dusk's digital business to the next
+                                                level.
+                                            </p>
                                             <div class="block__cite">
                                                 <div>
-                                                    <div class="block__icon"> <svg width="442" height="448"
-                                                            viewbox="0 0 442 448" xmlns="http://www.w3.org/2000/svg">
-                                                            <path
-                                                                d="M394.787 82.64l-45.858 45.856 45.858 45.86-28.285 28.284-45.858-45.857-45.857 45.857-28.285-28.284 45.857-45.86-45.857-45.856 28.285-28.284 45.857 45.856 45.858-45.856 28.285 28.284zM200.645 411.396c88.225 0 160-71.775 160-160h40c0 110.279-89.72 200-200 200s-200-89.721-200-200h40c0 88.225 71.775 160 160 160zm-100-343.46c33.136 0 60 26.863 60 60 0 33.139-26.864 60-60 60-33.138 0-60-26.861-60-60 0-33.137 26.862-60 60-60zm0 40c-11.028 0-20 8.974-20 20 0 11.028 8.972 20 20 20s20-8.972 20-20c0-11.026-8.972-20-20-20zm-60-59.999v-40h120v40h-120z"
-                                                                fill="#FFC938" fill-rule="evenodd"></path>
-                                                        </svg></div>
+                                                    <div class="block__icon">
+                                                        <img src="images/Ellipse1.png" alt="">
+                                                    </div>
                                                 </div>
                                                 <div>
                                                     <p>Gavin Feilding<br> <small>Digital Manager, dusk
@@ -440,24 +417,15 @@
                                     </div>
                                     <div class="slider__slide swiper-slide">
                                         <div class="block--testimonial">
-                                            <p>Having worked with numerous digital agencies prior, it’s refreshing to
-                                                find an agency that not only has the technical knowledge, but also
-                                                amazing creative design skills and great project management. The team
-                                                took the time to really understand our brand ahead of our website build
-                                                and we are absolutely thrilled with the result. The design,
-                                                functionality, and user experience is exactly what we were after and
-                                                we’ve seen noticeable improvements in conversion rate, time on page, and
-                                                bounce rate when compared with our old site. The professional service
-                                                and ongoing account management post-launch have also been exceptional.
+                                            <p>Having worked with numerous digital agencies prior, it’s refreshing to find an agency that not only has the technical knowledge, but also amazing creative design skills and great project management. The team
+                                                took the time to really understand our brand ahead of our website build and we are absolutely thrilled with the result. The design, functionality, and user experience is exactly what we were after and we’ve
+                                                seen noticeable improvements in conversion rate, time on page, and bounce rate when compared with our old site. The professional service and ongoing account management post-launch have also been exceptional.
                                                 We couldn’t recommend Humaan enough!</p>
                                             <div class="block__cite">
                                                 <div>
-                                                    <div class="block__icon"> <svg width="442" height="448"
-                                                            viewbox="0 0 442 448" xmlns="http://www.w3.org/2000/svg">
-                                                            <path
-                                                                d="M121 93.794c-22.057 0-40 17.944-40 40H41c0-44.11 35.888-80 80-80 44.111 0 80 35.89 80 80h-40c0-22.056-17.944-40-40-40zm200 0c-22.057 0-40 17.944-40 40h-40c0-44.11 35.888-80 80-80 44.111 0 80 35.89 80 80h-40c0-22.056-17.944-40-40-40zM221 407.937c88.225 0 160-71.774 160-160h40c0 110.28-89.721 200-200 200-110.28 0-200-89.72-200-200h40c0 88.226 71.775 160 160 160z"
-                                                                fill="#99DAF2" fill-rule="evenodd"></path>
-                                                        </svg></div>
+                                                    <div class="block__icon">
+                                                        <img src="images/Ellipse2.png" alt="">
+                                                    </div>
                                                 </div>
                                                 <div>
                                                     <p>Madeleine Hayes<br> <small>Brand Manager, Boutique
@@ -468,22 +436,15 @@
                                     </div>
                                     <div class="slider__slide swiper-slide">
                                         <div class="block--testimonial">
-                                            <p>We are extremely happy with and proud of the final result, which has been
-                                                validated by initial analytics metrics and feedback we have received
-                                                from our customers. The Humaan team are clearly digital design experts.
-                                                We were impressed with their creative output and CMS functionality
-                                                recommendations. As an open and honest partner throughout the project
-                                                life, we believe Humaan to be one of Perth’s leading agencies for any
-                                                business striving towards excellence in digital customer experiences.
+                                            <p>We are extremely happy with and proud of the final result, which has been validated by initial analytics metrics and feedback we have received from our customers. The Humaan team are clearly digital design experts.
+                                                We were impressed with their creative output and CMS functionality recommendations. As an open and honest partner throughout the project life, we believe Humaan to be one of Perth’s leading agencies for
+                                                any business striving towards excellence in digital customer experiences.
                                             </p>
                                             <div class="block__cite">
                                                 <div>
-                                                    <div class="block__icon"> <svg width="442" height="448"
-                                                            viewbox="0 0 442 448" xmlns="http://www.w3.org/2000/svg">
-                                                            <path
-                                                                d="M241 220.998c22.091 0 40 17.908 40 40s-17.909 40-40 40c-22.092 0-40-17.908-40-40s17.908-40 40-40zm-120-99.44c-22.056 0-40 17.943-40 40 0 22.056 17.944 40 40 40s40-17.944 40-40c0-22.057-17.944-40-40-40zm0 120c-44.183 0-80-35.817-80-80 0-44.184 35.817-80 80-80s80 35.816 80 80c0 44.183-35.817 80-80 80zm200-160c-22.056 0-40 17.943-40 40 0 22.056 17.944 40 40 40s40-17.944 40-40c0-22.057-17.944-40-40-40zm0 120c-44.183 0-80-35.817-80-80 0-44.184 35.817-80 80-80s80 35.816 80 80c0 44.183-35.817 80-80 80zm-80 199.44c88.225 0 160-71.775 160-160h40c0 110.28-89.72 200-200 200v-40z"
-                                                                fill="#FACFD0" fill-rule="evenodd"></path>
-                                                        </svg></div>
+                                                    <div class="block__icon">
+                                                        <img src="images/Ellipse1.png" alt="">
+                                                    </div>
                                                 </div>
                                                 <div>
                                                     <p>Charlotte Ivity<br> <small>Executive Manager, Engagement and
@@ -494,18 +455,13 @@
                                     </div>
                                     <div class="slider__slide swiper-slide">
                                         <div class="block--testimonial">
-                                            <p>The team at Humaan have been wonderful to work with. They were such an
-                                                integral part of creatively bringing to life my vision for my online
-                                                business Mindful Life and managed the project from start to finish with
-                                                efficiency and professionalism.</p>
+                                            <p>The team at Humaan have been wonderful to work with. They were such an integral part of creatively bringing to life my vision for my online business Mindful Life and managed the project from start to finish
+                                                with efficiency and professionalism.</p>
                                             <div class="block__cite">
                                                 <div>
-                                                    <div class="block__icon"> <svg width="442" height="448"
-                                                            viewbox="0 0 442 448" xmlns="http://www.w3.org/2000/svg">
-                                                            <path
-                                                                d="M201 200.998c0 22.056 17.944 40 40 40s40-17.944 40-40v-80c0-44.112 35.888-80 80-80s80 35.888 80 80h-40c0-22.056-17.944-40-40-40s-40 17.944-40 40v80c0 44.112-35.888 80-80 80s-80-35.888-80-80h40zm-160 40c0 88.225 71.775 160 160 160v40c-110.28 0-200-89.72-200-200h40zm80-120c-22.092 0-40-17.908-40-40s17.908-40 40-40c22.091 0 40 17.908 40 40s-17.909 40-40 40z"
-                                                                fill="#DDCEE5" fill-rule="evenodd"></path>
-                                                        </svg></div>
+                                                    <div class="block__icon">
+                                                        <img src="images/Ellipse2.png" alt="">
+                                                    </div>
                                                 </div>
                                                 <div>
                                                     <p>Megan Gale<br> <small>CEO & Founder, The Mindful Life</small>
@@ -520,8 +476,7 @@
                         </div>
                     </div>
                 </section>
-                <div class="section--faces waypoint-background" data-background="#fff" aria-hidden="true"
-                    style="--waypoint-background: #fff;">
+                <div class="section--faces waypoint-background" data-background="#fff" aria-hidden="true" style="--waypoint-background: #fff;">
                     <div class="row">
                         <div class="about-row__inner">
                             <div class="row__item">超</div>
@@ -533,13 +488,11 @@
                         </div>
                     </div>
                 </div>
-                <section class="section--services waypoint-background js--services-section" data-background="#212022"
-                    style="--waypoint-background: #212022;">
+                <section class="section--services waypoint-background js--services-section" data-background="#212022" style="--waypoint-background: #212022;">
                     <div class="container container--md">
                         <h2 class="hidden">Our services</h2>
                         <div class="section__intro">
-                            <p class="paragraph--lead">We play to our strengths: Ideating, creating and shipping
-                                wonderful things on the internet.</p>
+                            <p class="paragraph--lead">We play to our strengths: Ideating, creating and shipping wonderful things on the internet.</p>
                         </div>
                     </div>
                     <div class="container container--md">
@@ -553,9 +506,8 @@
                                         <div class="block--service">
                                             <div>
                                                 <h3 class="slide__title">Strategy</h3>
-                                                <p>We focus on understanding your brand, audience and business
-                                                    objectives to inform a digital strategy that is geared toward
-                                                    success.</p>
+                                                <p>We focus on understanding your brand, audience and business objectives to inform a digital strategy that is geared toward success.
+                                                </p>
                                                 <ul>
                                                     <li>Research & Insights</li>
                                                     <li>Stakeholder Workshops</li>
@@ -566,20 +518,18 @@
                                             </div>
                                             <div>
                                                 <div class="block__cta">
-                                                    <div class="card card--work card--work-dark"> <a
-                                                            class="js--card--slider"
-                                                            href="#">
+                                                    <div class="card card--work card--work-dark">
+                                                        <a class="js--card--slider" href="#">
                                                             <div class="card__image">
-                                                                <div class="card__image-spacer"
-                                                                    style="padding-top: 117.71844660194%;">
+                                                                <div class="card__image-spacer" style="padding-top: 117.71844660194%;">
                                                                 </div>
-                                                                <img src="images/strategy.png" class="content__img card__object" width="500" height="588" alt="Scitech"/>
+                                                                <img src="images/strategy.png" class="content__img card__object" width="500" height="588" alt="Scitech" />
                                                             </div>
                                                             <div class="card__caption">
-                                                                <h3 class="card__title"> Re-imagining digital for STEM
-                                                                    leadership <span class="card__subtitle">Scitech</span></h3>
+                                                                <h3 class="card__title"> Re-imagining digital for STEM leadership <span class="card__subtitle">Scitech</span></h3>
                                                             </div>
-                                                        </a></div>
+                                                        </a>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -588,8 +538,7 @@
                                         <div class="block--service">
                                             <div>
                                                 <h3 class="slide__title">UX</h3>
-                                                <p>Great user experiences are vital to building trust and core to our
-                                                    approach in pursuing intuitive function, simplicity and delight.</p>
+                                                <p>Great user experiences are vital to building trust and core to our approach in pursuing intuitive function, simplicity and delight.</p>
                                                 <ul>
                                                     <li>User Research</li>
                                                     <li>Persona Development</li>
@@ -600,21 +549,20 @@
                                             </div>
                                             <div>
                                                 <div class="block__cta">
-                                                    <div class="card card--work card--work-dark"> <a
-                                                            class="js--card--slider"
-                                                            href="#">
+                                                    <div class="card card--work card--work-dark">
+                                                        <a class="js--card--slider" href="#">
                                                             <div class="card__image">
-                                                                <div class="card__image-spacer"
-                                                                    style="padding-top: 117.71844660194%;">
+                                                                <div class="card__image-spacer" style="padding-top: 117.71844660194%;">
                                                                 </div>
-                                                                <img src="images/ux.png"class="content__img card__object" alt="">
+                                                                <img src="images/ux.png" class="content__img card__object" alt="">
                                                             </div>
                                                             <div class="card__caption">
                                                                 <h3 class="card__title"> User Experience highlights
                                                                     <span class="card__subtitle">Assorted
                                                                         Projects</span></h3>
                                                             </div>
-                                                        </a></div>
+                                                        </a>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -623,8 +571,7 @@
                                         <div class="block--service">
                                             <div>
                                                 <h3 class="slide__title">Design</h3>
-                                                <p>Design is at the heart of all that we do, drawing on our passion for
-                                                    creativity and award-winning expertise.</p>
+                                                <p>Design is at the heart of all that we do, drawing on our passion for creativity and award-winning expertise.</p>
                                                 <ul>
                                                     <li>User Interface Design</li>
                                                     <li>Responsive design</li>
@@ -635,20 +582,18 @@
                                             </div>
                                             <div>
                                                 <div class="block__cta">
-                                                    <div class="card card--work card--work-dark"> <a
-                                                            class="js--card--slider"
-                                                            href="#">
+                                                    <div class="card card--work card--work-dark">
+                                                        <a class="js--card--slider" href="#">
                                                             <div class="card__image">
-                                                                <div class="card__image-spacer"
-                                                                    style="padding-top: 117.71844660194%;">
+                                                                <div class="card__image-spacer" style="padding-top: 117.71844660194%;">
                                                                 </div>
                                                                 <img src="images/web-design.png" class="content__img card__object" alt="">
                                                             </div>
                                                             <div class="card__caption">
-                                                                <h3 class="card__title"> An evolving design system <span
-                                                                        class="card__subtitle">Spookfish</span></h3>
+                                                                <h3 class="card__title"> An evolving design system <span class="card__subtitle">Spookfish</span></h3>
                                                             </div>
-                                                        </a></div>
+                                                        </a>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -657,9 +602,8 @@
                                         <div class="block--service">
                                             <div>
                                                 <h3 class="slide__title">Development</h3>
-                                                <p>We architect, build, and deliver robust digital products entirely
-                                                    in-house, backed by our reputation for quality, stability and
-                                                    support.</p>
+                                                <p>We architect, build, and deliver robust digital products entirely in-house, backed by our reputation for quality, stability and support.
+                                                </p>
                                                 <ul>
                                                     <li>System Architecture</li>
                                                     <li>Product Development</li>
@@ -670,21 +614,19 @@
                                             </div>
                                             <div>
                                                 <div class="block__cta">
-                                                    <div class="card card--work card--work-dark"> <a
-                                                            class="js--card--slider"
-                                                            href="#">
+                                                    <div class="card card--work card--work-dark">
+                                                        <a class="js--card--slider" href="#">
                                                             <div class="card__image">
-                                                                <div class="card__image-spacer"
-                                                                    style="padding-top: 117.71844660194%;">
+                                                                <div class="card__image-spacer" style="padding-top: 117.71844660194%;">
                                                                 </div>
                                                                 <img src="images/development.png" class="content__img card__object" alt="">
                                                             </div>
                                                             <div class="card__caption">
-                                                                <h3 class="card__title"> A bespoke B2B platform for
-                                                                    innovation <span class="card__subtitle">Unios</span>
+                                                                <h3 class="card__title"> A bespoke B2B platform for innovation <span class="card__subtitle">Unios</span>
                                                                 </h3>
                                                             </div>
-                                                        </a></div>
+                                                        </a>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -693,8 +635,7 @@
                                         <div class="block--service">
                                             <div>
                                                 <h3 class="slide__title">Solutions</h3>
-                                                <p>We deliver solutions the only way we know how: obsess over detail and
-                                                    quality, collaborate with clients and ensure outstanding service.
+                                                <p>We deliver solutions the only way we know how: obsess over detail and quality, collaborate with clients and ensure outstanding service.
                                                 </p>
                                                 <ul>
                                                     <li>Websites</li>
@@ -706,18 +647,17 @@
                                             </div>
                                             <div>
                                                 <div class="block__cta">
-                                                    <div class="card card--work card--work-dark"> <a
-                                                            class="js--card--slider"
-                                                            href="#">
+                                                    <div class="card card--work card--work-dark">
+                                                        <a class="js--card--slider" href="#">
                                                             <div class="card__image">
                                                                 <img src="images/solution.png" alt="">
                                                             </div>
                                                             <div class="card__caption">
-                                                                <h3 class="card__title"> Native music apps, 400k+ active
-                                                                    users <span class="card__subtitle">Mideast
+                                                                <h3 class="card__title"> Native music apps, 400k+ active users <span class="card__subtitle">Mideast
                                                                         Tunes</span></h3>
                                                             </div>
-                                                        </a></div>
+                                                        </a>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -729,83 +669,88 @@
                         </div>
                     </div>
                 </section>
-                    <video controls id="my-video">
-                        <source src="video/superheroes.mp4"></source>
-                    </video>
-                </div>
-                <section class="section--recognition js--section-awards waypoint-background" data-background="#ffffff"
-                    style="--waypoint-background: #fff;">
+                <video controls id="my-video">
+                        <source src="video/superheroes.mp4" autoplay=""></source>
+                </video>
+                <section class="section--recognition js--section-awards waypoint-background" data-background="#ffffff" style="--waypoint-background: #fff;">
                     <h2 class="hidden">Recognition</h2>
                     <div class="container container--md">
                         <div class="grid--awards js--grid-awards" data-waay="step-up">
-                            <footer class="footer">
-                                <div class="footer-wrapper">
-                                    <div class="footer-text">Lets start work together</div>
-                                    <div class="footer-title">Don’t be stranger to talk to us?</div>
-                                    <button class="work-with-us">WORK WITH US</button>
-                                    <div class="footer-container">
-                                        <div class="footer-block">
-                                            <div class="footer-block-title">New Business</div>
-                                            <div class="footer-block-text xxx">
-                                                <a href="#">Work with Us ----</a>
-                                            </div>
-                                            <div class="footer-block-text">
-                                                <a href="#">hello[at]annusa.net</a>
-                                            </div>
-                                        </div>
-                                        <div class="footer-block">
-                                            <div class="footer-block-title">Speak to Us</div>
-                                            <div class="footer-block-text xxx">
-                                                <a href="#">+38 044 364 55 19</a>
-                                            </div>
-                                            <div class="footer-block-text">
-                                                <a href="#">hello[at]annusa.net</a>
-                                            </div>
-                                        </div>
-                                        <div class="footer-block">
-                                            <div class="footer-block-title">Headquarters</div>
-                                            <div class="footer-block-text xxx">
-                                                <a href="#">L1 william Street moving ride</a>
-                                            </div>
-                                            <div class="footer-block-text">
-                                                <a href="#">Perth, Australia</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="last-footer">
-                                        <div class="left-footer">
-                                            <div class="left-footer-txt">© 2020 Aldoric - All rights reserved.</div>
-                                        </div>
-                                        <div class="right-footer">
-                                            <div class="right-footer-txt">
-                                                <a href="#">Privacy Policy</a>
-                                            </div>
-                                            <div class="right-footer-txt">
-                                                <a href="#">Showreel</a>
-                                            </div>
-                                            <div class="right-footer-txt">
-                                                <a href="#">Careers</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </footer>
-                            <div class="arrow-cursor"> <svg class="arrow-cursor__icon" style="opacity: 0;" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="94" height="87" viewbox="0 0 94 87">
-                                <path class="arrow-cursor__path" fill="none" fill-rule="evenodd" stroke="#F05644" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M54.177 83.487a3 3 0 0 1-4.244 0l-8.484-8.484a3 3 0 0 1 0-4.244l18.576-18.592H4.997a3 3 0 0 1-3-3v-12a3 3 0 0 1 3-3h55.028L41.45 15.607a3 3 0 0 1 0-4.244l8.484-8.484a3 3 0 0 1 4.244 0l36.064 36.06a6 6 0 0 1 0 8.488l-36.064 36.06z"></path>
-                                </svg></div>
+
                         </div>
                     </div>
                 </section>
+                <div class="arrow-cursor">
+                    <svg class="arrow-cursor__icon" style="opacity: 0;" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="94" height="87" viewbox="0 0 94 87">
+                <path class="arrow-cursor__path" fill="none" fill-rule="evenodd" stroke="#F05644" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M54.177 83.487a3 3 0 0 1-4.244 0l-8.484-8.484a3 3 0 0 1 0-4.244l18.576-18.592H4.997a3 3 0 0 1-3-3v-12a3 3 0 0 1 3-3h55.028L41.45 15.607a3 3 0 0 1 0-4.244l8.484-8.484a3 3 0 0 1 4.244 0l36.064 36.06a6 6 0 0 1 0 8.488l-36.064 36.06z"></path>
+            </svg>
+                </div>
             </main>
+            <footer class="footer">
+                <div class="footer-wrapper">
+                    <div class="footer-text">Lets start work together</div>
+                    <div class="footer-title">Don’t be stranger to talk to us?</div>
+                    <button class="work-with-us">WORK WITH US</button>
+                    <div class="footer-container">
+                        <div class="footer-block">
+                            <div class="footer-block-title">New Business</div>
+                            <div class="footer-block-text xxx">
+                                <a href="#">Work with Us ----</a>
+                            </div>
+                            <div class="footer-block-text">
+                                <a href="#">hello[at]annusa.net</a>
+                            </div>
+                        </div>
+                        <div class="footer-block">
+                            <div class="footer-block-title">Speak to Us</div>
+                            <div class="footer-block-text xxx">
+                                <a href="#">+38 044 364 55 19</a>
+                            </div>
+                            <div class="footer-block-text">
+                                <a href="#">hello[at]annusa.net</a>
+                            </div>
+                        </div>
+                        <div class="footer-block">
+                            <div class="footer-block-title">Headquarters</div>
+                            <div class="footer-block-text xxx">
+                                <a href="#">L1 william Street moving ride</a>
+                            </div>
+                            <div class="footer-block-text">
+                                <a href="#">Perth, Australia</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="last-footer">
+                        <div class="left-footer">
+                            <div class="left-footer-txt">© 2020 Aldoric - All rights reserved.</div>
+                        </div>
+                        <div class="right-footer">
+                            <div class="right-footer-txt">
+                                <a href="#">Privacy Policy</a>
+                            </div>
+                            <div class="right-footer-txt">
+                                <a href="#">Showreel</a>
+                            </div>
+                            <div class="right-footer-txt">
+                                <a href="#">Careers</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
         </div>
     </div>
-    <script
-        src="https://polyfill.io/v3/polyfill.min.js?features=es6%2CIntersectionObserver%2CArray.from%2CElement.prototype.remove"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6%2CIntersectionObserver%2CArray.from%2CElement.prototype.remove"></script>
     <script src="js\lib\jquery-3.3.1.min.js"></script>
     <script src="js\build.js?v=1598425104"></script>
     <script src="js/studio.js"></script>
-    <script>/*  */
-        var js_vars = { "ajax_url": "https:\/\/humaan.com\/wp-admin\/admin-ajax.php", "template_url": "https:\/\/humaan.com\/wp-content\/themes\/humaan5" };</script>
+    <script>
+        /*  */
+        var js_vars = {
+            "ajax_url": "https:\/\/humaan.com\/wp-admin\/admin-ajax.php",
+            "template_url": "https:\/\/humaan.com\/wp-content\/themes\/humaan5"
+        };
+    </script>
 </body>
 
 </html>
