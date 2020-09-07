@@ -1,0 +1,128 @@
+    @font-face {
+        font-family: Inter-ExtraBold-800;
+        src: url('../fonts/Inter-ExtraBold-slnt=0.ttf');
+    }
+    
+    @font-face {
+        font-family: Inter-Medium-500;
+        src: url('../fonts/Inter-Medium-slnt=0.ttf');
+    }
+    
+    @font-face {
+        font-family: Inter-Regular-400;
+        src: url('../fonts/Inter-Regular-slnt=0.ttf');
+    }
+    
+    @font-face {
+        font-family: Inter-SemiBold-600;
+        src: url('../fonts/Inter-SemiBold-slnt=0.ttf');
+    }
+    
+    @font-face {
+        font-family: Inter-Thin-100;
+        src: url('../fonts/Inter-Thin-slnt=0.ttf');
+    }
+    
+    .header__block {
+        background-image: url('../images/contact-back.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: 100vh;
+    }
+    
+    .header-main .nav--primary ul li a {
+        color: #DEDEDE;
+    }
+    
+    .header-main .nav--primary ul .contact-active a {
+        color: #fff;
+    }
+    
+    .header-title {
+        color: #fff;
+        font-size: 144px;
+        text-align: center;
+        font-family: 'Inter-ExtraBold-800';
+        padding-top: 220px;
+    }
+    
+    .header-txt {
+        font-size: 16px;
+        font-family: 'Inter-Medium-500';
+        color: #fff;
+        text-align: center;
+    }
+    
+    .banner__title {
+        padding: 80px 190px 0;
+    }
+    
+    .header-aside {
+        width: 126px;
+    }
+    
+    .link--email {
+        padding-left: 0;
+    }
+    
+    .btn--planner {
+        border-radius: 0;
+        background-color: #fff;
+        font-size: 14px;
+        font-family: 'Inter-SemiBold-600';
+        padding: 0;
+    }
+    
+    .footer-main .footer-main__social ul li+li::before {
+        content: '';
+    }
+    
+    .btn__label {
+        display: flex;
+        background-color: #EAB614;
+        transition: background .2s ease-in-out, color .2s ease-in-out;
+    }
+    
+    .btn__arrow {
+        display: flex;
+        background-color: #EAB614;
+        transition: background .2s ease-in-out, color .2s ease-in-out;
+    }
+    
+    .btn--planner .btn__label {
+        padding: 17.5px 40px 17.5px 20px;
+    }
+    
+    .hidden-logo-name {
+        display: none;
+        color: #fff;
+        text-decoration: none;
+        font-family: 'Inter-SemiBold-600';
+    }
+    
+    .logo a {
+        text-decoration: none;
+    }
+    
+    .btn--planner .btn__arrow {
+        padding: 20px;
+        margin-left: 3px;
+    }
+    
+    .btn--planner:hover .btn__arrow {
+        background-color: #99daf2;
+    }
+    
+    .btn--planner:hover .btn__label {
+        background-color: #99daf2;
+        color: #fff;
+    }
+    
+    .section--contact-details {
+        font-size: 20px;
+    }
+    
+    .section--contact-details h2 {
+        font-size: 22px;
+    }

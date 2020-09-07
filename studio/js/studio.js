@@ -26,7 +26,4 @@ $(document).ready(function() {
             $(this).addClass('Mob-bird-none');
         });
     });
-    // $('.header__mobile-toggle').on('click', function() {
-    //     $('.mobile-bird-img').css('display', 'block');
-    // });
 });

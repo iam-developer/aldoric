@@ -1,0 +1,111 @@
+        @font-face {
+            font-family: Inter-ExtraBold-800;
+            src: url('../fonts/Inter-ExtraBold-slnt=0.ttf');
+        }
+        
+        @font-face {
+            font-family: Inter-Medium-500;
+            src: url('../fonts/Inter-Medium-slnt=0.ttf');
+        }
+        
+        @font-face {
+            font-family: Inter-Regular-400;
+            src: url('../fonts/Inter-Regular-slnt=0.ttf');
+        }
+        
+        @font-face {
+            font-family: Inter-SemiBold-600;
+            src: url('../fonts/Inter-SemiBold-slnt=0.ttf');
+        }
+        
+        @font-face {
+            font-family: Inter-Thin-100;
+            src: url('../fonts/Inter-Thin-slnt=0.ttf');
+        }
+        
+        .planner-step__title,
+        .planner-step__title span {
+            font-family: 'Inter-Medium-500';
+        }
+        
+        .step-instructions p {
+            font-family: 'Inter-Regular-400';
+        }
+        
+        .form-field label {
+            font-family: 'Inter-Medium-500';
+            color: #222222;
+            font-size: 20px;
+        }
+        
+        .btn--planner {
+            border-radius: 0;
+            font-size: 14px;
+            font-family: 'Inter-SemiBold-600';
+            padding: 0;
+            background-color: transparent;
+        }
+        
+        .btn--planner .btn__label {
+            padding: 17.5px 60px 17.5px 40px;
+            background-color: #EAB614;
+            transition: .4s;
+        }
+        
+        .btn--planner .btn__arrow {
+            padding: 13px;
+            margin-left: 3px;
+            background-color: #EAB614;
+            transition: .4s;
+        }
+        
+        .btn--planner:hover .btn__arrow {
+            background-color: #99daf2;
+        }
+        
+        .header-aside {
+            width: 126px;
+        }
+        
+        .btn--planner:hover .btn__label {
+            background-color: #99daf2;
+            color: #fff;
+        }
+        /* Media queries */
+        
+        @media (min-width: 768px) {
+            .form-field .form-control {
+                font-size: 20px;
+                color: #DDDDDD;
+                font-family: 'Inter-Medium-500';
+            }
+        }
+        
+        .form-field .form-control:focus {
+            color: #2e2e2e;
+        }
+        
+        .type-selection input:checked+label,
+        .type-selection input:checked+label.on-press,
+        .type-selection input:checked+label:focus,
+        .type-selection input:checked+label:hover {
+            background-color: #EAB614;
+        }
+        
+        .planner-indicators li.is-active {
+            background-color: #EAB614;
+        }
+        
+        .total-uploaded {
+            color: #818181;
+        }
+        
+        .dropzone-foo {
+            color: #222;
+        }
+        
+        @media (min-width: 768px) {
+            .main-header--scrolling .header-main.header-main--sticky-purple {
+                background-color: #30CBC2;
+            }
+        }

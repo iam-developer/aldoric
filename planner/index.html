@@ -1,0 +1,880 @@
+﻿<!DOCTYPE html>
+<html lang="en-AU" class="no-js">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script>
+        document.documentElement.classList.remove("no-js");
+        document.documentElement.classList.add("js");
+
+        var prefersReducedMotion = window.matchMedia(
+            "(prefers-reduced-motion: reduce)"
+        );
+
+        if (prefersReducedMotion.matches) {
+            document.documentElement.classList.add("reduced-motion");
+        } else {
+            document.documentElement.classList.remove("reduced-motion");
+        }
+
+        // First we get the viewport height and we multiple it by 1% to get a value for a vh unit
+        var vh = window.innerHeight * 0.01;
+        // Then we set the value in the --vh custom property to the root of the document
+        document.documentElement.style.setProperty("--vh", vh + "px");
+
+        // We listen to the resize event
+        window.addEventListener("resize", function() {
+            // We execute the same script as before
+            var vh = window.innerHeight * 0.01;
+            document.documentElement.style.setProperty("--vh", vh + "px");
+        });
+    </script>
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                "gtm.start": new Date().getTime(),
+                event: "gtm.js",
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != "dataLayer" ? "&l=" + l : "";
+            j.async = true;
+            j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, "script", "dataLayer", "GTM-WNB8PTD");
+    </script>
+    <link rel="stylesheet" href="../contacts/css/style.css" media="screen" />
+    <link rel="stylesheet" href="../contacts/css/print.css" media="print" />
+    <link rel="stylesheet" href="css/planner.css">
+    <noscript><link
+        rel="stylesheet"
+        href="../contacts/css/no-js.css"
+        media="screen"
+      />
+    </noscript>
+    <meta name="theme-color" content="#1b1d1e" />
+    <title>Work with us | Aldoric</title>
+    <meta name="description" content="Get started by completing our project planner. Prefer to chat? Call us on 08 9471 7645" />
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <link rel="canonical" href="index.html" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Start a project with Humaan | World-class digital" />
+    <meta property="og:description" content="Get started by completing our project planner. Prefer to chat? Call us on 08 9471 7645" />
+    <meta property="og:url" content="https://humaan.com/planner/" />
+    <meta property="og:site_name" content="Humaan: World class digital products" />
+    <meta property="article:publisher" content="https://www.facebook.com/humaan" />
+    <meta property="article:modified_time" content="2020-05-12T03:44:15+00:00" />
+    <meta property="og:image" content="https://humaan5.humaan.co/wp-content/uploads/2020/05/Contact-OG.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="fb:app_id" content="542871049731483" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:creator" content="@wearehumaan" />
+    <meta name="twitter:site" content="@wearehumaan" />
+    <script type="application/ld+json" class="yoast-schema-graph">
+        {
+            "@context": "https://schema.org",
+            "@graph": [{
+                "@type": "Organization",
+                "@id": "https://humaan.com/#organization",
+                "name": "Humaan",
+                "url": "https://humaan.com/",
+                "sameAs": [
+                    "https://www.facebook.com/humaan",
+                    "https://www.instagram.com/wearehumaan/",
+                    "https://au.linkedin.com/company/humaan",
+                    "https://twitter.com/wearehumaan"
+                ],
+                "logo": {
+                    "@type": "ImageObject",
+                    "@id": "https://humaan.com/#logo",
+                    "inLanguage": "en-AU",
+                    "url": "https://humaan.com/wp-content/uploads/2020/04/Cover1.png",
+                    "width": 1000,
+                    "height": 500,
+                    "caption": "Humaan"
+                },
+                "image": {
+                    "@id": "https://humaan.com/#logo"
+                }
+            }, {
+                "@type": "WebSite",
+                "@id": "https://humaan.com/#website",
+                "url": "https://humaan.com/",
+                "name": "Humaan: World class digital products",
+                "description": "Humaan",
+                "publisher": {
+                    "@id": "https://humaan.com/#organization"
+                },
+                "potentialAction": [{
+                    "@type": "SearchAction",
+                    "target": "https://humaan.com/?s={search_term_string}",
+                    "query-input": "required name=search_term_string"
+                }],
+                "inLanguage": "en-AU"
+            }, {
+                "@type": "WebPage",
+                "@id": "https://humaan.com/planner/#webpage",
+                "url": "https://humaan.com/planner/",
+                "name": "Start a project with Humaan | World-class digital",
+                "isPartOf": {
+                    "@id": "https://humaan.com/#website"
+                },
+                "datePublished": "2016-09-16T02:30:28+00:00",
+                "dateModified": "2020-05-12T03:44:15+00:00",
+                "description": "Get started by completing our project planner. Prefer to chat? Call us on 08 9471 7645",
+                "inLanguage": "en-AU",
+                "potentialAction": [{
+                    "@type": "ReadAction",
+                    "target": ["https://humaan.com/planner/"]
+                }]
+            }]
+        }
+    </script>
+</head>
+
+<body class="page-template page-template-template-planner page-template-template-planner-php page page-id-3734 planner">
+    <noscript><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-WNB8PTD"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <div class="container--outer" data-barba="wrapper">
+        <div class="container--page" data-barba="container" data-barba-namespace="planner" data-theme="yellow">
+            <a class="skip-to-link" href="#skip-to-content">Skip to Content</a>
+            <a class="skip-to-link" href="#skip-to-navigation">Skip to Navigation</a
+        >
+        <noscript
+          ><div class="alert alert--no-js">
+            <p>For the best experience, please enable JavaScript.</p>
+          </div>
+        </noscript>
+        <header class="header-main header-main--sticky-yellow">
+          <div class="container container--full">
+            <div class="header__inner">
+              <div>
+                <div
+                  class="logo"
+                  itemscope=""
+                  itemtype="http://schema.org/Organization"
+                >
+                  <a itemprop="url" href="..\index.html" data-component="logo">
+                    <span class="hidden">Aldoric</span>
+                 <img src="../contacts/images/logo-form.png" alt="logo">
+                  </a>
+        </div>
+    </div>
+    <div>
+        <a href="../contacts/" id="skip-to-navigation" class="planner-close">Close&nbsp;<span class="hide-sm"> Project Planner</span>
+            <span class="xxx">&#10006;</span>
+        </a>
+    </div>
+    </div>
+    </div>
+    </header>
+    <div class="header-aside-trigger"></div>
+    <div class="header-aside">
+        <img src="../contacts/images/bird-logo.png" alt="">
+    </div>
+    <main id="skip-to-content" class="content-main">
+        <div class="container--planner">
+            <div class="container">
+                <div class="planner-wrapper">
+                    <div class="planner-wrapper-inner">
+                        <form action="https://humaan.com/planner/" method="post" id="the-planner-form" class="form--planner" enctype="multipart/form-data" data-component="planner">
+                            <h1 class="hidden">Project Planner Enquiry</h1>
+                            <ul class="planner-indicators">
+                                <li class="step-1 is-active">
+                                    <span class="hidden">Planner step 1: Your details</span>
+                                </li>
+                                <li class="step-2">
+                                    <span class="hidden">Planner step 2: Select your requirements</span
+                        >
+                      </li>
+                      <li class="step-3">
+                        <span class="hidden"
+                          >Planner step 3: About your project</span
+                        >
+                      </li>
+                      <li class="step-4">
+                        <span class="hidden"
+                          >Planner step 4: Project budget</span
+                        >
+                      </li>
+                      <li class="step-5">
+                        <span class="hidden">Planner step 5: Finishing up</span>
+                                </li>
+                            </ul>
+                            <div class="planner-steps-wrap">
+                                <input type="hidden" name="submit_type" value="planner" />
+                                <div class="planner-step clearfix is-active" data-step="1">
+                                    <div class="step-controls" data-waay="step-right">
+                                        <h2 class="planner-step__title" data-waay-step="">
+                                            <span data-waay-step="">Start a project</span>
+                                        </h2>
+                                        <div class="step-instructions" data-waay-step="">
+                                            <p>
+                                                Thanks for your interest in working with us. Please complete the details below and we’ll get back to you within one business day.
+                                            </p>
+                                        </div>
+                                        <div class="form-field" data-waay-step="">
+                                            <label for="step1-name">What should we call you?</label
+                            >
+                            <input
+                              type="text"
+                              name="planner_name"
+                              id="step1-name"
+                              class="form-control validate"
+                              placeholder="Your name here"
+                              data-ref="planner.inputName"
+                            />
+                          </div>
+                          <div class="form-field" data-waay-step="">
+                            <label for="step1-company"
+                              >What is the name of your company /
+                              organisation?</label
+                            >
+                            <input
+                              type="text"
+                              name="planner_company"
+                              id="step1-company"
+                              class="form-control validate"
+                              placeholder="Widgets Inc"
+                            />
+                          </div>
+                          <div class="form-field clearfix" data-waay-step="">
+                            <label for="step1-email"
+                              >How shall we contact you?</label
+                            >
+                            <div class="form-field-row">
+                              <div class="form-field-col form-field-col--half">
+                                <input
+                                  type="email"
+                                  name="planner_email"
+                                  id="step1-email"
+                                  class="form-control validate"
+                                  placeholder="Email address"
+                                />
+                              </div>
+                              <div
+                                class="form-field-col form-field-col--half"
+                                data-delay="6"
+                              >
+                                <label for="step1-phone" class="hidden"
+                                  >Enter your phone number</label
+                                >
+                                <input
+                                  type="tel"
+                                  name="planner_phone"
+                                  id="step1-phone"
+                                  class="form-control validate"
+                                  placeholder="Phone Number"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="planner-step clearfix" data-step="2">
+                        <div data-waay="step-right">
+                          <h2 class="planner-step__title" data-waay-step="">
+                            What can we help you with?
+                          </h2>
+                          <div
+                            class="step-instructions"
+                            data-waay-step=""
+                            data-delay="2"
+                          >
+                            <p>
+                              Nice to meet you,
+                              <span
+                                class="planner-name"
+                                data-ref="planner.plannerName"
+                              ></span
+                              >. Select all that apply.
+                            </p>
+                          </div>
+                        </div>
+                        <div data-waay="step-up">
+                          <div class="step-controls clearfix">
+                            <div class="type-select-group">
+                              <div
+                                class="type-selection"
+                                data-waay-step=""
+                                data-delay="1"
+                              >
+                                <input
+                                  type="checkbox"
+                                  name="planner_project_type_checkbox"
+                                  id="step2-web"
+                                  value="Web"
+                                  checked=""
+                                />
+                                <label for="step2-web" class="icon icon-web">
+                                  <span class="checkbox__icon"
+                                    ><svg
+                                      aria-hidden="true"
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      viewbox="0 0 171.951 150"
+                                    >
+                                      <path
+                                        d="M159.146 0H12.805C5.745 0 0 6.031 0 13.448v108.47c0 7.417 5.745 13.448 12.805 13.448h71.341v10.976h-49.39c-1.011 0-1.829.822-1.829 1.829S33.745 150 34.756 150h102.439c1.011 0 1.829-.822 1.829-1.829s-.818-1.829-1.829-1.829h-49.39v-10.976h71.341c7.06 0 12.805-6.031 12.805-13.448V13.448C171.951 6.031 166.206 0 159.146 0zm9.147 121.918c0 5.395-4.102 9.789-9.146 9.789H12.805c-5.045 0-9.146-4.395-9.146-9.789v-15.82h164.634v15.82zm0-19.479H3.659V13.448c0-5.395 4.102-9.789 9.146-9.789h146.341c5.045 0 9.146 4.395 9.146 9.789v88.991zM85.976 124.39a5.496 5.496 0 005.488-5.488c0-3.023-2.462-5.488-5.488-5.488s-5.488 2.465-5.488 5.488a5.496 5.496 0 005.488 5.488zm0-7.317c1.008 0 1.829.822 1.829 1.829a1.832 1.832 0 01-1.829 1.829 1.832 1.832 0 01-1.829-1.829 1.832 1.832 0 011.829-1.829z"
+                                      ></path></svg></span>
+                                  <span class="checkbox__label">Web</span>
+                                  <span class="checkbox__check"
+                                    ><svg
+                                      aria-hidden="true"
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      viewbox="0 0 150 150"
+                                    >
+                                      <path
+                                        d="M104.117 50.839l-44.666 41.69-13.492-13.488c-1.221-1.221-3.198-1.221-4.419 0s-1.221 3.198 0 4.419l15.625 15.625a3.129 3.129 0 004.342.077l46.875-43.75a3.126 3.126 0 10-4.265-4.573zM75 0C33.646 0 0 33.646 0 75s33.646 75 75 75 75-33.646 75-75S116.354 0 75 0zm0 143.75c-37.909 0-68.75-30.841-68.75-68.75S37.091 6.25 75 6.25 143.75 37.091 143.75 75 112.909 143.75 75 143.75z"
+                                      ></path></svg></span>
+                                </label>
+                                        </div>
+                                        <div class="type-selection" data-waay-step="" data-delay="2">
+                                            <input type="checkbox" name="planner_project_type_checkbox" id="step2-mobile" value="App" />
+                                            <label for="step2-mobile" class="icon icon-mobile">
+                                  <span class="checkbox__icon"
+                                    ><svg
+                                      aria-hidden="true"
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      viewbox="0 0 86.17 150"
+                                    >
+                                      <path
+                                        d="M71.809 0H14.362C6.442 0 0 6.445 0 14.362v121.277C0 143.555 6.442 150 14.362 150h57.447c7.92 0 14.362-6.445 14.362-14.362V14.362C86.17 6.445 79.728 0 71.809 0zm11.17 135.638c0 6.159-5.012 11.17-11.17 11.17H14.362c-6.159 0-11.17-5.012-11.17-11.17v-11.17h79.787v11.17zm0-14.361H3.191V28.723h79.787v92.554zm0-95.745H3.191v-11.17c0-6.159 5.012-11.17 11.17-11.17h57.447c6.159 0 11.17 5.012 11.17 11.17v11.17zM59.043 12.766H27.128a1.597 1.597 0 000 3.192h31.915a1.597 1.597 0 000-3.192zm-15.958 127.66c2.64 0 4.787-2.151 4.787-4.787s-2.147-4.787-4.787-4.787-4.787 2.151-4.787 4.787 2.147 4.787 4.787 4.787zm0-6.383c.879 0 1.596.717 1.596 1.596s-.717 1.596-1.596 1.596-1.596-.717-1.596-1.596.717-1.596 1.596-1.596z"
+                                      ></path></svg></span>
+                                  <span class="checkbox__label">App</span>
+                                  <span class="checkbox__check"
+                                    ><svg
+                                      aria-hidden="true"
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      viewbox="0 0 150 150"
+                                    >
+                                      <path
+                                        d="M104.117 50.839l-44.666 41.69-13.492-13.488c-1.221-1.221-3.198-1.221-4.419 0s-1.221 3.198 0 4.419l15.625 15.625a3.129 3.129 0 004.342.077l46.875-43.75a3.126 3.126 0 10-4.265-4.573zM75 0C33.646 0 0 33.646 0 75s33.646 75 75 75 75-33.646 75-75S116.354 0 75 0zm0 143.75c-37.909 0-68.75-30.841-68.75-68.75S37.091 6.25 75 6.25 143.75 37.091 143.75 75 112.909 143.75 75 143.75z"
+                                      ></path></svg></span>
+                                </label>
+                                        </div>
+                                        <div class="type-selection" data-waay-step="" data-delay="3">
+                                            <input type="checkbox" name="planner_project_type_checkbox" id="step2-ecommerce" value="eCommerce" />
+                                            <label for="step2-ecommerce" class="icon icon-ecomm">
+                                  <span class="checkbox__icon"
+                                    ><svg
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      viewbox="0 0 166.358 150"
+                                    >
+                                      <path
+                                        d="M164.588 4.88h-21.237c-.823 0-1.535.563-1.721 1.365l-9.289 39.473-26.687-26.176a1.772 1.772 0 00-2.489.014l-6.561 6.561H61.942c-.975 0-1.77.792-1.77 1.77v19.467H41.855L21.086 1.043a1.806 1.806 0 00-1.009-.937 1.774 1.774 0 00-1.369.066L1.01 8.593a1.769 1.769 0 00-.85 2.33l16.56 36.432H5.31a1.767 1.767 0 00-1.68 2.329l21.237 63.711c.242.722.919 1.21 1.68 1.21h89.583l-2.499 10.619H37.165c-6.83 0-12.388 5.558-12.388 12.388S30.335 150 37.165 150s12.388-5.558 12.388-12.388c0-3.465-1.434-6.598-3.736-8.849h60.564a12.348 12.348 0 00-3.736 8.849c0 6.83 5.558 12.388 12.388 12.388s12.388-5.558 12.388-12.388c0-6.084-4.413-11.147-10.203-12.183l2.703-11.486c.251-.305.421-.681.421-1.107 0-.131-.048-.245-.074-.368L144.754 8.42h19.834c.975 0 1.77-.792 1.77-1.77s-.795-1.77-1.77-1.77zM46.014 137.612c0 4.881-3.968 8.849-8.849 8.849s-8.849-3.968-8.849-8.849 3.968-8.849 8.849-8.849 8.849 3.968 8.849 8.849zM104.43 23.3l24.524 24.054H80.373L104.43 23.3zm-40.718 6.357h29.353L75.367 47.354H63.712V29.657zM4.1 11.04l14.497-6.896 19.372 43.21H20.607L4.1 11.04zm23.726 100.025L7.764 50.894h123.359l-14.16 60.172H27.826zm96.058 26.547c0 4.881-3.968 8.849-8.849 8.849s-8.849-3.968-8.849-8.849 3.968-8.849 8.849-8.849c4.88 0 8.849 3.968 8.849 8.849z"
+                                      ></path></svg></span>
+                                  <span class="checkbox__label">eCommerce</span>
+                                  <span class="checkbox__check"
+                                    ><svg
+                                      aria-hidden="true"
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      viewbox="0 0 150 150"
+                                    >
+                                      <path
+                                        d="M104.117 50.839l-44.666 41.69-13.492-13.488c-1.221-1.221-3.198-1.221-4.419 0s-1.221 3.198 0 4.419l15.625 15.625a3.129 3.129 0 004.342.077l46.875-43.75a3.126 3.126 0 10-4.265-4.573zM75 0C33.646 0 0 33.646 0 75s33.646 75 75 75 75-33.646 75-75S116.354 0 75 0zm0 143.75c-37.909 0-68.75-30.841-68.75-68.75S37.091 6.25 75 6.25 143.75 37.091 143.75 75 112.909 143.75 75 143.75z"
+                                      ></path></svg></span>
+                                </label>
+                                        </div>
+                                        <div class="type-selection" data-waay-step="" data-delay="4">
+                                            <input type="checkbox" name="planner_project_type_checkbox" id="step2-ui" value="UI/UX" />
+                                            <label for="step2-ui" class="icon icon-other">
+                                  <span class="checkbox__icon"
+                                    ><svg
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      fill="none"
+                                      viewbox="0 0 150 150"
+                                    >
+                                      <path
+                                        fill="#643A86"
+                                        fill-rule="evenodd"
+                                        d="M-.22 52.555c0-8.01 6.495-14.505 14.506-14.505h44.961a1.75 1.75 0 110 3.5H14.286c-6.078 0-11.005 4.927-11.005 11.005v82.909c0 6.077 4.927 11.005 11.005 11.005h121.173c6.078 0 11.005-4.928 11.005-11.005V52.555c0-6.078-4.927-11.005-11.005-11.005h-13.08a1.75 1.75 0 110-3.5h13.08c8.011 0 14.505 6.494 14.505 14.505v82.909c0 8.01-6.494 14.505-14.505 14.505H14.286c-8.011 0-14.505-6.495-14.505-14.505V52.555z"
+                                        clip-rule="evenodd"
+                                      ></path>
+                                      <path
+                                        fill="#643A86"
+                                        fill-rule="evenodd"
+                                        d="M12.536 58.933a8.128 8.128 0 018.127-8.128h25.83a1.75 1.75 0 010 3.5h-25.83a4.628 4.628 0 00-4.627 4.628v70.153a4.628 4.628 0 004.627 4.628h108.419a4.628 4.628 0 004.627-4.628V58.933a4.628 4.628 0 00-4.627-4.628h-19.458a1.75 1.75 0 110-3.5h19.458a8.128 8.128 0 018.127 8.128v70.153a8.128 8.128 0 01-8.127 8.128H20.663a8.128 8.128 0 01-8.127-8.128V58.933z"
+                                        clip-rule="evenodd"
+                                      ></path>
+                                      <path
+                                        fill="#643A86"
+                                        fill-rule="evenodd"
+                                        d="M25.29 71.688a8.128 8.128 0 018.128-8.128h7.245a1.75 1.75 0 110 3.5h-7.245a4.628 4.628 0 00-4.627 4.628v25.51a4.628 4.628 0 004.627 4.628h38.266a4.628 4.628 0 004.627-4.628V84.443a1.75 1.75 0 113.5 0v12.755a8.128 8.128 0 01-8.127 8.128H33.418a8.128 8.128 0 01-8.127-8.128v-25.51z"
+                                        clip-rule="evenodd"
+                                      ></path>
+                                      <path
+                                        fill="#643A86"
+                                        fill-rule="evenodd"
+                                        d="M76.311 84.443c0-.966.784-1.75 1.75-1.75h6.378a8.128 8.128 0 018.127 8.128v25.51a8.127 8.127 0 01-8.127 8.127H46.174a8.127 8.127 0 01-8.128-8.127v-12.755a1.75 1.75 0 113.5 0v12.755a4.627 4.627 0 004.627 4.627H84.44a4.627 4.627 0 004.627-4.627v-25.51a4.628 4.628 0 00-4.627-4.628H78.06a1.75 1.75 0 01-1.75-1.75zM109.949 67.06a4.628 4.628 0 100 9.256h6.378a4.628 4.628 0 000-9.255h-6.378zm-8.128 4.628a8.128 8.128 0 018.128-8.128h6.378a8.128 8.128 0 010 16.256h-6.378a8.128 8.128 0 01-8.128-8.128zM109.949 92.57a4.628 4.628 0 00-4.628 4.628v19.133a4.627 4.627 0 004.628 4.627h6.378a4.627 4.627 0 004.627-4.627V97.198a4.628 4.628 0 00-4.627-4.627h-6.378zm-8.128 4.628a8.128 8.128 0 018.128-8.127h6.378a8.128 8.128 0 018.127 8.127v19.133a8.127 8.127 0 01-8.127 8.127h-6.378a8.127 8.127 0 01-8.128-8.127V97.198zM111.511 3.097a11.318 11.318 0 0119.325 8.004c0 3.003-1.193 5.882-3.317 8.004l-57.946 57.94c-.21.21-.47.363-.755.445l-18.973 5.446a1.75 1.75 0 01-2.165-2.165l5.447-18.973c.081-.285.234-.544.444-.754l57.94-57.947zm8.004.184a7.814 7.814 0 00-5.528 2.29L56.366 63.2 51.916 78.7l15.502-4.45 57.627-57.62a7.82 7.82 0 000-11.058l-.001-.001a7.817 7.817 0 00-5.529-2.291z"
+                                        clip-rule="evenodd"
+                                      ></path>
+                                    </svg>
+                                  </span>
+                                  <span class="checkbox__label">UI/UX</span>
+                                  <span class="checkbox__check"
+                                    ><svg
+                                      aria-hidden="true"
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      viewbox="0 0 150 150"
+                                    >
+                                      <path
+                                        d="M104.117 50.839l-44.666 41.69-13.492-13.488c-1.221-1.221-3.198-1.221-4.419 0s-1.221 3.198 0 4.419l15.625 15.625a3.129 3.129 0 004.342.077l46.875-43.75a3.126 3.126 0 10-4.265-4.573zM75 0C33.646 0 0 33.646 0 75s33.646 75 75 75 75-33.646 75-75S116.354 0 75 0zm0 143.75c-37.909 0-68.75-30.841-68.75-68.75S37.091 6.25 75 6.25 143.75 37.091 143.75 75 112.909 143.75 75 143.75z"
+                                      ></path></svg></span>
+                                </label>
+                                        </div>
+                                        <div class="type-selection step-up" data-waay-step="" data-delay="5">
+                                            <input type="checkbox" name="planner_project_type_checkbox" id="step2-other" value="Other" />
+                                            <label for="step2-other" class="icon icon-other">
+                                  <span class="checkbox__icon"
+                                    ><svg
+                                      aria-hidden="true"
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      viewbox="0 0 152.09 150"
+                                    >
+                                      <path
+                                        d="M151.535 13.264a1.631 1.631 0 00-1.845-.193l-36.615 20.294V1.618a1.62 1.62 0 00-.992-1.491 1.613 1.613 0 00-1.756.335L65.515 44.335l-38.458-.028v.035c-.313.06-.607.205-.84.438L.474 70.546a1.619 1.619 0 001.143 2.761h37.71l25.419 47.661c.18.338.477.603.834.742l71.497 28.176a1.617 1.617 0 001.921-2.429l-24.339-34.869 37.324-97.524a1.619 1.619 0 00-.448-1.8zm-41.695 92.42L68.285 46.15 109.84 5.465v100.219zM5.518 70.073l21.403-21.419 10.755 21.419H5.518zm36.228.892l-.001-.002-11.76-23.42 34.572.025v66.169L41.746 70.965zm26.046 48.14v-68.01l65.486 93.816-65.486-25.806zm45.283-11.422v-70.62l34.303-19.011-34.303 89.631z"
+                                      ></path></svg></span>
+                                  <span class="checkbox__label">Other</span>
+                                  <span class="checkbox__check"
+                                    ><svg
+                                      aria-hidden="true"
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      viewbox="0 0 150 150"
+                                    >
+                                      <path
+                                        d="M104.117 50.839l-44.666 41.69-13.492-13.488c-1.221-1.221-3.198-1.221-4.419 0s-1.221 3.198 0 4.419l15.625 15.625a3.129 3.129 0 004.342.077l46.875-43.75a3.126 3.126 0 10-4.265-4.573zM75 0C33.646 0 0 33.646 0 75s33.646 75 75 75 75-33.646 75-75S116.354 0 75 0zm0 143.75c-37.909 0-68.75-30.841-68.75-68.75S37.091 6.25 75 6.25 143.75 37.091 143.75 75 112.909 143.75 75 143.75z"
+                                      ></path></svg></span>
+                                </label>
+                                        </div>
+                                    </div>
+                                    <input type="hidden" name="planner_project_type" value="" />
+                                </div>
+                            </div>
+                    </div>
+                    <div class="planner-step clearfix" data-step="3">
+                        <div data-waay="step-right">
+                            <h2 class="planner-step__title" data-waay-step="" data-delay="1">
+                                Tell us about the project
+                            </h2>
+                            <div class="step-instructions" data-waay-step="" data-delay="2">
+                                <p class="contextual-response" style="display: block"></p>
+                            </div>
+                            <div class="step-controls">
+                                <div class="form-field" data-waay-step="" data-delay="3">
+                                    <label for="step3-description">Describe the project</label
+                              ><textarea
+                                name="planner_project_description"
+                                id="step3-description"
+                                class="form-control validate"
+                                placeholder="Requirements, intentions, target audience, goals etc."
+                              ></textarea>
+                            </div>
+                            <div
+                              class="form-field"
+                              data-waay-step=""
+                              data-delay="4"
+                            >
+                              <label for="pp-file"
+                                >Attach any relevant documents
+                                <span>(optional)</span></label
+                              >
+                              <div id="files-wrap">
+                                <div
+                                  id="planner-files-dropzone"
+                                  data-ref="planner.dropzone"
+                                >
+                                  <div class="dropzone-foo">
+                                    <div class="instructions is-desktop">
+                                      Drag and drop files here. Maximum 10mb.
+                                    </div>
+                                    <div class="instructions is-touch hidden">
+                                      Select files to attach.
+                                    </div>
+                                    <span class="dropzone__icon"
+                                      ><svg
+                                        aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewbox="0 0 164.839 150"
+                                      >
+                                        <path
+                                          d="M31.467,150c-8.063,0-16.126-3.068-22.266-9.204c-12.269-12.279-12.269-32.256,0-44.535l83.965-83.958	C101.096,4.37,111.64,0,122.856,0c11.213,0,21.757,4.37,29.683,12.303c7.93,7.926,12.3,18.47,12.3,29.683s-4.37,21.753-12.3,29.676	l-59.475,59.475c-1.367,1.367-3.581,1.367-4.947,0c-1.367-1.367-1.367-3.581,0-4.947l59.475-59.475	c6.611-6.604,10.25-15.388,10.25-24.729c0-9.344-3.639-18.128-10.25-24.736c-6.608-6.611-15.392-10.253-24.736-10.253	s-18.132,3.642-24.743,10.253l-83.965,83.958c-9.539,9.549-9.539,25.091,0,34.64c9.553,9.549,25.091,9.546,34.637-0.003	l80.34-80.593c4.093-4.096,4.093-10.755,0.003-14.841c-3.96-3.96-10.878-3.967-14.838,0L54.806,99.886	c-1.367,1.367-3.581,1.367-4.947,0s-1.367-3.581,0-4.947l59.482-59.475c6.601-6.608,18.128-6.608,24.736,0	c6.816,6.813,6.816,17.906,0.003,24.732l-80.343,80.593C47.597,146.929,39.53,150,31.467,150z"
+                                        ></path></svg></span>
+                                  </div>
+                                  <div class="total-uploaded">
+                                    No files uploaded
+                                  </div>
+                                  <div class="dropzone-previews"></div>
+                                </div>
+                                <input
+                                  type="hidden"
+                                  value=""
+                                  name="planner_files_list"
+                                  data-ref="planner.dropzoneFiles"
+                                />
+                                <input
+                                  type="file"
+                                  name="planner_file"
+                                  id="pp-file"
+                                  data-ref="planner.inputFile"
+                                />
+                                <input
+                                  type="hidden"
+                                  name="MAX_FILE_SIZE"
+                                  value="10485760"
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="planner-step clearfix" data-step="4">
+                        <div class="sub-step-wrap budget-1 is-active">
+                          <div data-waay="step-right">
+                            <h2 class="planner-step__title">
+                              <span
+                                data-waay-step=""
+                                data-delay="1"
+                                style="display: block"
+                                >What's your budget?</span
+                              >
+                            </h2>
+                            <div
+                              class="step-instructions"
+                              data-waay-step=""
+                              data-delay="2"
+                            >
+                              <p>
+                                A transparent budget will help us ensure
+                                expectations are met.<br />
+                                Not sure? Ballparks are fine.
+                              </p>
+                            </div>
+                          </div>
+                          <div class="step-controls">
+                            <div data-waay="step-right">
+                              <div
+                                class="sliders-wrap"
+                                data-waay-step=""
+                                data-delay="2"
+                              >
+                                <div class="filter-range">
+                                  <input
+                                    type="hidden"
+                                    name="planner_project_budget"
+                                    class="slider-val"
+                                    value="$50K - $160K"
+                                  />
+                                  <div
+                                    class="range-slider"
+                                    data-min="15"
+                                    data-max="200"
+                                    data-start="50"
+                                    data-end="160"
+                                    data-inc="5"
+                                  ></div>
+                                  <div class="range-labels">
+                                    <span class="range-lbl-min">$50</span
+                                    ><span class="range-lbl-max-wrap">
+                                      &ndash;
+                                      <span class="range-lbl-max"
+                                        >$160</span
+                                      ></span
+                                    >
+                                  </div>
+                                  <div class="fixed-label label-min">$15k</div>
+                                  <div class="fixed-label label-max">
+                                    $200k +
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <input
+                              type="hidden"
+                              name="planner_project_budget_provided"
+                              value="yes"
+                            />
+                            <div data-waay="step-up">
+                              <a
+                                href="#"
+                                data-waay-step=""
+                                data-delay="3"
+                                class="btn btn--border trigger-analogy"
+                                >I don't know my budget</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                        <div class="sub-step-wrap budget-2 hidden">
+                          <h2 class="planner-step__title">
+                            <span
+                              class="step-right"
+                              data-delay="1"
+                              style="display: block"
+                              >To put it another way&hellip;</span
+                            >
+                          </h2>
+                          <div
+                            class="step-instructions step-right"
+                            data-delay="2"
+                          >
+                            <p>
+                              Rate the following (We don't compromise on design
+                              or quality)
+                            </p>
+                          </div>
+                          <div class="step-controls">
+                            <div
+                              class="individual-slide slider-val step-right"
+                              data-delay="3"
+                            >
+                              <h3>Timeframe</h3>
+                              <div class="sliders-wrap">
+                                <div class="filter">
+                                  <input
+                                    type="hidden"
+                                    name="planner_project_timeframe"
+                                    class="slider-val"
+                                    value="3"
+                                  />
+                                  <div
+                                    class="range-slider"
+                                    data-min="1"
+                                    data-max="5"
+                                    data-start="3"
+                                    data-inc="1"
+                                    data-single="true"
+                                  ></div>
+                                  <div class="range-labels">
+                                    <span class="range-lbl-min"></span>
+                                  </div>
+                                  <div class="fixed-label label-min">
+                                    Yesterday
+                                  </div>
+                                  <div class="fixed-label label-max">
+                                    As long as you need
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="individual-slide slider-val step-right"
+                              data-delay="4"
+                            >
+                              <h3>Complexity</h3>
+                              <div class="sliders-wrap">
+                                <div class="filter">
+                                  <input
+                                    type="hidden"
+                                    name="planner_project_complexity"
+                                    class="slider-val"
+                                    value="3"
+                                  />
+                                  <div
+                                    class="range-slider"
+                                    data-min="1"
+                                    data-max="5"
+                                    data-start="3"
+                                    data-inc="1"
+                                    data-single="true"
+                                  ></div>
+                                  <div class="range-labels">
+                                    <span class="range-lbl-min"></span>
+                                  </div>
+                                  <div class="fixed-label label-min">
+                                    Bicycle
+                                  </div>
+                                  <div class="fixed-label label-max">
+                                    Spaceship
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="individual-slide step-right"
+                              data-delay="5"
+                            >
+                              <h3>Sophistication</h3>
+                              <div class="sliders-wrap">
+                                <div class="filter">
+                                  <input
+                                    type="hidden"
+                                    name="planner_project_sophistication"
+                                    class="slider-val"
+                                    value="3"
+                                  />
+                                  <div
+                                    class="range-slider"
+                                    data-min="1"
+                                    data-max="5"
+                                    data-start="3"
+                                    data-inc="1"
+                                    data-single="true"
+                                  ></div>
+                                  <div class="range-labels">
+                                    <span class="range-lbl-min"></span>
+                                  </div>
+                                  <div class="fixed-label label-min">
+                                    Toyota
+                                  </div>
+                                  <div class="fixed-label label-max">
+                                    Porsche
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="step-up" data-delay="6">
+                              <a href="#" class="btn btn--border trigger-dollar"
+                                >I'd prefer to tell you my budget</a
+                              >
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="planner-step clearfix" data-step="5">
+                        <div data-waay="step-right">
+                          <h2 class="planner-step__title">
+                            <span
+                              data-waay-step=""
+                              data-delay="1"
+                              style="display: block"
+                              >Lastly&hellip;</span
+                            >
+                          </h2>
+                          <div
+                            class="step-instructions"
+                            data-waay-step=""
+                            data-delay="2"
+                          >
+                            <p>Let's wrap this up.</p>
+                          </div>
+                          <div class="step-controls">
+                            <div
+                              class="form-field"
+                              data-waay-step=""
+                              data-delay="3"
+                            >
+                              <label for="step5-timeframe"
+                                >What's your ideal timeframe?</label
+                              >
+                              <input
+                                type="text"
+                                name="planner_ideal_timeframe"
+                                id="step5-timeframe"
+                                class="validate form-control"
+                                placeholder="Have a date in mind?"
+                              />
+                            </div>
+                            <div
+                              class="form-field"
+                              data-waay-step=""
+                              data-delay="4"
+                            >
+                              <label for="step5-hear"
+                                >How did you hear about us?</label
+                              >
+                              <input
+                                type="text"
+                                name="planner_referral"
+                                id="step5-hear"
+                                class="validate form-control"
+                                placeholder="Word of mouth"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="planner-spinner"></div>
+                    <div class="planner-thankyou-wrap">
+                      <div class="planner-thankyou-wrap-inner">
+                        <div class="planner-thankyou-content">
+                          <h2>
+                            <em>Sent! 🙌</em> Thanks for completing our project
+                            planner.
+                          </h2>
+                          <p>
+                            We'll be in touch very soon to discuss the project
+                            in more detail. Looking for more? Why not
+                            <a
+                              href="..\blog\index.htm"
+                              title="The Humaan Blog"
+                              class="internal-link"
+                              >check out our blog</a
+                            >.
+                          </p>
+                          <a
+                            href="..\index.htm"
+                            class="return-btn internal-link"
+                            >Back to Humaan</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="planner-controls">
+                      <button
+                        aria-label="Go back a step"
+                        class="step-back hidden"
+                        type="button"
+                        data-ref="planner.back"
+                      >
+                        <span class="hidden">Back</span>
+                      </button>
+                      <button
+                        aria-label="Move to next step"
+                        type="button"
+                        data-ref="planner.next"
+                      >
+                      <a href="#" class="btn btn--planner">
+                        <span class="flex">
+                          <span class="btn__label">NEXT</span>
+                        <span class="btn__arrow">
+                            <img src="../contacts/images/arrow-right.png" alt="">
+                        </span>
+                        </span>
+                    </a>
+                      </button>
+                      <button
+                        aria-label="Submit project planner"
+                        disabled=""
+                        class="step-submit hidden"
+                        type="submit"
+                        data-ref="planner.submit"
+                      >
+                        Submit
+                      </button>
+                      <div class="error-msg" data-ref="planner.error">
+                        Whoops, looks like we need some more info &uarr;
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6%2CIntersectionObserver%2CArray.from%2CElement.prototype.remove"></script>
+    <script src="../contacts/js/lib/jquery-3.3.1.min.js"></script>
+    <script src="../contacts/js/build.js"></script>
+    <script>
+      /*  */
+      var js_vars = {
+        ajax_url: "https:\/\/humaan.com\/wp-admin\/admin-ajax.php",
+        template_url: "https:\/\/humaan.com\/wp-content\/themes\/humaan5",
+      };
+    </script>
+  </body>
+</html>
