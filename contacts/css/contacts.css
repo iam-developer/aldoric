@@ -93,8 +93,12 @@
     .btn--planner .btn__label {
         padding: 17.5px 40px 17.5px 20px;
     }
+   
+    .contact-bird {
+        opacity: 0;
+    }
     
-    .hidden-logo-name {
+    .hidden-logo-name, .contact-logo-mobile {
         display: none;
         color: #fff;
         text-decoration: none;
@@ -118,11 +122,64 @@
         background-color: #99daf2;
         color: #fff;
     }
-    
+    .contact-logo-mobile {
+        display: none;
+    }
     .section--contact-details {
         font-size: 20px;
     }
     
     .section--contact-details h2 {
         font-size: 22px;
+    }
+    .header-main .header__mobile-toggle {
+        width: 116px;
+    }
+    @media screen and (max-width: 992px) {
+        .banner__title {
+            padding: 50px 0px 0;
+        }
+        .btn--planner .btn__arrow {
+            padding: 17px;
+        }
+    }
+    @media screen and (max-width: 767px) {
+        .btn--planner .btn__arrow {
+            padding: 20px;
+        }
+        .yyy {
+            display: none;
+        }
+        .hidden-logo-name {
+            display: none;
+            font-size: 22px;
+        }
+        .contact-logo-mobile {
+            display: block;
+        }
+        .header-title {
+            font-size: 120px;
+        }
+        .footer-main__bottom-inner {
+            font-size: 24px;
+        }
+    }
+    @media screen and (max-width: 576px) {
+        .header-title {
+            font-size: 100px;
+        }
+    }
+    @media screen and (max-width: 344px) {
+        .banner--contact .btn--planner {
+            font-size: 16px;
+        }
+        .btn--planner .btn__arrow {
+            padding: 17px;
+        }
+    }
+    @media (max-width: 767px) {
+        .header-main .header__mobile-navigation {
+            background: #404F56;
+            padding: 120px 33px 85px 50px;
+        }
     }

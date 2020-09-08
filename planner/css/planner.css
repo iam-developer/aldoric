@@ -53,7 +53,7 @@
         }
         
         .btn--planner .btn__arrow {
-            padding: 13px;
+            padding: 12px;
             margin-left: 3px;
             background-color: #EAB614;
             transition: .4s;
@@ -103,9 +103,23 @@
         .dropzone-foo {
             color: #222;
         }
-        
-        @media (min-width: 768px) {
-            .main-header--scrolling .header-main.header-main--sticky-purple {
-                background-color: #30CBC2;
-            }
+        .planner-hidden {
+            display: none;
+            color: #2e2e2e;
+            text-decoration: none;
+            font-family: 'Inter-SemiBold-600';
+            text-decoration: none;
         }
+        .logo a {
+            color: transparent;
+        }
+        
+    @media (min-width: 768px) {
+        .main-header--scrolling .header-main.header-main--sticky-purple {
+            background-color: #30CBC2;
+        }
+        .main-header--peek .header-main {
+            padding: 10px 0px;
+        }
+    }
+        

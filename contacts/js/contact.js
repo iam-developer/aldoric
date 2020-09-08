@@ -10,5 +10,8 @@ window.addEventListener('DOMContentLoaded', () => {
             $('.contact-logo').css('display', 'none');
             $('.hidden-logo-name').css('display', 'block');
         });
+        $('.header__mobile-toggle--purple').on('click', function() {
+            $('.contact-bird-img').toggleClass('contact-bird');
+        });
     });
 });
