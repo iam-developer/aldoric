@@ -1,0 +1,141 @@
+
+@media screen and(max-width: 1200px) {
+    #my-video {
+        width: 80%;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .footer-wrapper {
+        max-width: 790px;
+    }
+    .footer-title {
+        font-size: 60px;
+        width: 520px;
+    }
+    .footer-block {
+        padding-right: 77px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .footer-container {
+        flex-wrap: wrap;
+    }
+    .footer-block {
+        padding-top: 30px;
+    }
+    #my-video {
+        width: 75%;
+    }
+}
+@media screen and (max-width: 840px) {
+    .footer-wrapper {
+        padding: 0 20px;
+    }
+    .footer-title {
+        font-size: 46px;
+        width: 410px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .contacts__title {
+        font-size: 56px;
+        line-height: 64px;
+    }
+    .header {
+        display: none;
+    }
+    .bird {
+        display: none;
+    }
+    .bird__mob {
+        display: block;
+    }
+    .mob__logo {
+        display: block;
+    }
+    .block {
+        width: 210px;
+    }
+}
+@media screen and (max-width: 710px) {
+    .footer-block {
+        padding-right: 50px;
+    }
+    .last-footer {
+        padding-top: 25px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .left-footer {
+        width: 100%;
+    }
+    .right-footer {
+        padding-top: 10px;
+        justify-content: space-between;
+    }
+    .left-footer, .right-footer {
+        width: auto;
+    }
+}
+@media screen and (max-width: 576px) {
+    .contacts__title {
+        font-size: 46px;
+        line-height: 58px;
+    }
+    #my-video {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 488px) {
+    .block__num {
+        font-size: 36px;
+    }
+    .block {
+        width: 170px;
+    }
+    .header__title {
+        font-size: 48px;
+    }
+    .header__btn {
+        padding: 16px 60px;
+    }
+    .second__sec__txt {
+        font-size: 26px;
+    }
+    .contacts__title {
+        font-size: 38px;
+        line-height: 48px;
+    }
+}
+@media screen and (max-width: 430px) {
+    .footer-title {
+        font-size: 34px;
+        width: 279px;
+    }
+}
+@media screen and (max-width: 402px) {
+    .block__num {
+        font-size: 36px;
+    }
+    .block {
+        width: 240px;
+    }
+    .second__sec__title {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .contacts__title {
+        font-size: 32px;
+        line-height: 42px;
+    }
+}
+@media screen and (max-width: 325px) {
+    .right-footer-txt {
+        padding-right: 20px;
+    }
+}
+
+
+
+
