@@ -24,6 +24,7 @@ $('.close-menu').on('click', function() {
   $(window).scroll(function() {
     $('.desktop__logo').css('display', 'none');
     $('.mobile__logo').css('display', 'none');
+    $('.menu ul li a').css('color', '#777777')
 
     if($(this).scrollTop() != 0) {
       $(".bird").css('visibility', 'visible');
@@ -43,6 +44,7 @@ $('.close-menu').on('click', function() {
     $('.header').css('visibility', 'visible');
     $('.header').css('background-color', '#30CBC2');
     $('.mobile__logo').css('display', 'block');
+    $('.menu ul li a').css('color', '#fff');
   });
 
 
