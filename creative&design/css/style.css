@@ -166,10 +166,6 @@ p {
 .first__section {
     width: 100%;
     margin: 0 auto;
-    background-image: url('../img/career-back-img.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     padding: 96px 0 170px;
 }
 .header {
