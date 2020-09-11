@@ -203,6 +203,11 @@ ul li {
     padding-left: 40px;
     font-size: 16px;
     font-family: 'Inter-Regular-400';
+    transition: .2s;
+}
+.menu ul li a:hover {
+    color: #DEDEDE;
+    text-decoration: underline;
 }
 .header__txt {
     font-family: 'Inter-SemiBold-600';
@@ -272,11 +277,19 @@ ul li {
     border: 2px solid #999999;
     padding: 7px;
     margin: 7px;
+    transition: .4s;
+}
+.block:hover {
+    border: 2px solid #EAB614;
+}
+.block:hover .block__num {
+    color: #EAB614;
 }
 .block__num {
     font-family: 'Inter-Bold';
     font-size: 48px;
     color: #999999;
+    transition: .4s;
 }
 .block__title {
     font-family: 'Inter-Bold';
@@ -287,12 +300,6 @@ ul li {
     font-family: 'Inter-Bold';
     font-size: 12px;
     color: #777777;
-}
-.act {
-    color: #EAB614;
-}
-.bor {
-    border: 2px solid #EAB614;
 }
 #my-video {
     width: 50%;
@@ -347,13 +354,21 @@ ul li {
     border: 0;
     border-radius: 0;
     margin-top: 60px;
+    padding: 0;
+}
+.btn:focus {
+    outline: none;
 }
 .btn:hover {
     color: #fff;
+    border: none;
 }
 .send__btn {
     display: flex;
     align-items: center;
+}
+.send__btn:focus {
+    outline: none;
 }
 .btn__right {
     margin-left: 3px;

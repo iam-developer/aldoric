@@ -54,8 +54,8 @@
     .mob__logo {
         display: block;
     }
-    .block {
-        width: 210px;
+    .first__section {
+        background-position: 80%;
     }
 }
 @media screen and (max-width: 710px) {
@@ -92,10 +92,11 @@
         font-size: 36px;
     }
     .block {
-        width: 170px;
+        width: 280px;
+        padding: 14px;
     }
     .header__title {
-        font-size: 48px;
+        font-size: 52px;
     }
     .header__btn {
         padding: 16px 60px;
@@ -118,9 +119,6 @@
     .block__num {
         font-size: 36px;
     }
-    .block {
-        width: 240px;
-    }
     .second__sec__title {
         font-size: 32px;
         line-height: 42px;
@@ -128,6 +126,9 @@
     .contacts__title {
         font-size: 32px;
         line-height: 42px;
+    }
+    .first__section {
+        background-position: 70%;
     }
 }
 @media screen and (max-width: 325px) {
