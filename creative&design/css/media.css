@@ -108,6 +108,21 @@
         font-size: 38px;
         line-height: 48px;
     }
+    .header---title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .second__section {
+        padding: 0 0 40px;
+    }
+    .content {
+        height: 46vh;
+        padding-left: 14px;
+        margin: 60px 0 20px;
+    }
+    .header__title {
+        font-size: 45px;
+    }
 }
 @media screen and (max-width: 430px) {
     .footer-title {

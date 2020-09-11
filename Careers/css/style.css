@@ -207,7 +207,6 @@ ul li {
 }
 .menu ul li a:hover {
     color: #DEDEDE;
-    text-decoration: underline;
 }
 .header__txt {
     font-family: 'Inter-SemiBold-600';
