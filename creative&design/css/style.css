@@ -174,7 +174,6 @@ p {
     top: 0;
     left: 0;
     z-index: 9999;
-    padding: 20px 0;
 }
 .header__wrapper {
     min-height: 52px;
@@ -182,6 +181,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 40px;
 }
 .menu ul {
     display: flex;
