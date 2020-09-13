@@ -42,6 +42,12 @@
     }
     .bird-mobile {
         display: block;
+        width: auto;
+        height: auto;
+        right: -60px;
+    }
+    .bird-mobile img {
+        max-width: 46%;
     }
     .right-vertical::after {
         bottom: 240px;
@@ -109,6 +115,15 @@
     .right-vertical::after {
         bottom: 450px;
         right: -13px;
+    }
+    .mobile-logo {
+        padding: 36px 40px;
+    }
+    .bird-mobile img {
+        max-width: 40%;
+    }
+    .bird-mobile {
+        right: -75px;
     }
 }
 @media screen and (max-width: 510px) {

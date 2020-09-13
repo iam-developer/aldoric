@@ -51,7 +51,10 @@ a {
 .banner--about .banner__caption .banner__title {
     color: #404F56;
 }
-
+.header-main .nav--primary ul li a {
+    font-size: 16px;
+    font-family: 'Inter-Regular-400';
+}
 .main-header--peek .header-main {
     padding: 0;
 }
@@ -102,7 +105,9 @@ a {
 .logo-link:focus {
     color: #464b50;
 }
-
+.header-main .container {
+    padding: 0 40px;
+}
 #my-video {
     width: 100%;
     height: 100%;

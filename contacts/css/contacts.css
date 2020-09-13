@@ -68,7 +68,12 @@
     .header-aside {
         width: 126px;
     }
-    
+    .header-main {
+        padding: 0;
+    }
+    .header-main .container {
+        padding: 10px 40px;
+    }
     .link--email {
         padding-left: 0;
     }
@@ -144,6 +149,7 @@
     }
     .header-main .header__mobile-toggle {
         width: 116px;
+        outline: none;
     }
     
 
@@ -384,6 +390,15 @@
     .contacts__title {
         font-size: 56px;
         line-height: 64px;
+    }
+    .header-main .container {
+        padding: 40px;
+    }
+    .contact-logo-mobile {
+        font-size: 21px;
+    }
+    .header-main .nav--primary ul li a {
+        font-size: 22px;
     }
 }
 @media screen and (max-width: 710px) {

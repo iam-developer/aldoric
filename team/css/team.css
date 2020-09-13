@@ -120,8 +120,14 @@
 
 .header-main .nav--primary ul li a {
     font-family: 'Inter-Regular-400';
+    font-size: 16px;
 }
-
+.header-main .container {
+    padding: 10px 50px;
+}
+.header-main {
+    padding: 0;
+}
 .section--humaans {
     padding: 50px 0 0;
 }
