@@ -183,7 +183,9 @@
     padding: 40px;
     background-color: #fff;
 }
-
+.header-main .nav--primary ul li a.font__size {
+    font-size: 22px;
+}
 
 /*============================= FOOTER ============================ */
 
@@ -382,7 +384,7 @@
         padding-top: 90px;
     }
     .header-main .header__mobile-toggle {
-        max-width: 90px;
+        max-width: 105px;
     }
     .header-main .header__inner>div {
         padding-left: 0;

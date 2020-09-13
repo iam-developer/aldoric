@@ -40,11 +40,9 @@ $(document).ready(function() {
         {
             $('.header-main .nav--primary ul li a').css('color', '#fff');
             $('.header-main .nav--primary ul li a').css('font-size', '22px');
-            $('.header-main .header__mobile-toggle').css('padding', '45px');
         } else {
             $('.header-main .nav--primary ul li a').css('color', '#464b50');
             $('.header-main .nav--primary ul li a').css('font-size', '16px');
-            $('.header-main .header__mobile-toggle').css('padding', '26px');
         }
       }
 

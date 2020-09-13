@@ -1,13 +1,19 @@
 $(document).ready(function() {
 
+    $('.header__mobile-toggle--purple').on('click', function() {
+        $('.team-mobile-menu').toggleClass('team-mobile-menu-none');
+        $('.header-main .nav--primary ul li a').toggleClass('font__size');
+    });
+
    $(document).load($(window).bind("resize", checkPosition));
 
    function checkPosition() {
     if($(window).width() < 767) {
         $('.header').css('display', 'none');
+
         $('.header-aside-trigger').hover(function() {
-            $('.teaaam-logo').css('display', 'none');
-            $('.team-logo').css('display', 'block');
+        $('.teaaam-logo').css('display', 'none');
+        $('.team-logo').css('display', 'block');
        });
        $(window).on('scroll', function() {
         $('.team-logo').css('color', '#464b50');
@@ -17,6 +23,7 @@ $(document).ready(function() {
 
     }   else {
         $('.header').css('display', 'block');
+
         $('.header-aside-trigger').hover(function() {
             $('.teaaam-logo').css('display', 'none');
             $('.team-logo').css('display', 'block');
@@ -31,9 +38,7 @@ $(document).ready(function() {
             $('.team-logo').css('display', 'none');
             $('.header-main--sticky-purple').css('marginTop', '0');
         });
-        $('.header__mobile-toggle--purple').on('click', function() {
-            $('.team-mobile-menu').toggleClass('team-mobile-menu-none');
-        });
+        
         }
     }
 
