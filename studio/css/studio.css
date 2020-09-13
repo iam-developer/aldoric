@@ -51,6 +51,9 @@ a {
 .banner--about .banner__caption .banner__title {
     color: #404F56;
 }
+.nav--primary ul li {
+    margin-right: 20px;
+}
 .header-main .nav--primary ul li a {
     font-size: 16px;
     font-family: 'Inter-Regular-400';
@@ -58,7 +61,6 @@ a {
 .main-header--peek .header-main {
     padding: 0;
 }
-
 .row__item {
     font-size: 200px;
     padding: 0 20px;
@@ -322,7 +324,7 @@ a {
     }
     .header-main .header__mobile-navigation {
         padding-top: 140px;
-        padding-left: 60px;
+        padding-left: 40px;
         background-color: #404F56;
     }
     .logo-link-mobile {
