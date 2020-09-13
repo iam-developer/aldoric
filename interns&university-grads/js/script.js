@@ -68,7 +68,17 @@ $('.close-menu').on('click', function() {
   
     }
 
- 
+//  Slick slider:
+
+$('.slider--cont').slick({
+  dots: true,
+  infinite: true,
+  slidesToShow: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  waitForAnimate: false,
+  slidesToScroll: 1,
+});
 
 });
 
