@@ -4,6 +4,15 @@ $(document).ready(function() {
         $('.team-mobile-menu').toggleClass('team-mobile-menu-none');
         $('.header-main .nav--primary ul li a').toggleClass('font__size');
     });
+    
+    if($('.header-aside-trigger').hover(function() {
+        $('.header-main--sticky-purple').css('marginTop', '5px');
+        $('.logo a:before').css('padding-top', '4.8%');
+    }));
+
+   $(window).on('scroll', function() {
+    $('.header-main--sticky-purple').css('marginTop', '0');
+});
 
    $(document).load($(window).bind("resize", checkPosition));
 
@@ -27,7 +36,6 @@ $(document).ready(function() {
         $('.header-aside-trigger').hover(function() {
             $('.teaaam-logo').css('display', 'none');
             $('.team-logo').css('display', 'block');
-            $('.header-main--sticky-purple').css('marginTop', '5px');
        });
        $('.header-aside-trigger').hover(function() {
         $('.team-logo').css('color', 'white');

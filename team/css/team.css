@@ -110,8 +110,8 @@
 
 .banner--team .banner__caption .banner__title {
     font-size: 36px;
-    padding: 50px 10px;
-    font-family: 'Bebaseue-Regular';
+    padding: 50px 80px;
+    font-family: 'Inter-Medium-500';
 }
 
 .team-mobile-menu-none {
@@ -144,9 +144,6 @@
     color: #404F56;
 }
 
-.banner__caption {
-    background-color: #E5E5E5;
-}
 
 .header-main+.header-main__spacer {}
 
@@ -186,7 +183,12 @@
 .header-main .nav--primary ul li a.font__size {
     font-size: 22px;
 }
-
+.section--team-gallery {
+    margin: 0 50px;
+}
+.team-heroes {
+    margin: 50px 0;
+}
 /*============================= FOOTER ============================ */
 
 .footer {
@@ -423,12 +425,6 @@
     }
 }
 
-/* @media (min-width: 768px) {
-    .logo {
-        max-width: 0;
-    }
-} */
-
 @media screen and (max-width: 576px) {
     .banner--team .banner__caption .banner__title {
         font-size: 20px;
@@ -443,6 +439,15 @@
     }
     .see--yourself-title {
         font-size: 22px;
+    }
+    .banner--team .banner__caption .banner__title {
+        padding: 40px 10px;
+    }
+    .section--team-gallery {
+        margin: 0;
+    }
+    .team-heroes {
+        margin: 0;
     }
 }
 
