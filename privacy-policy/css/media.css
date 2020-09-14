@@ -1,0 +1,226 @@
+
+@media screen and (max-width: 1173px) {
+    .heroes-img {
+        order: -1;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .footer-wrapper {
+        max-width: 790px;
+    }
+    .footer-title {
+        font-size: 60px;
+        width: 520px;
+    }
+    .footer-block {
+        padding-right: 77px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    header .menu {
+        display: none;
+    }
+    .burger-menu {
+        display: flex;
+    }
+    .content-block-text {
+        margin-left: 0;
+        padding-top: 42px;
+    }
+    .footer-container {
+        flex-wrap: wrap;
+    }
+    .footer-block {
+        padding-top: 30px;
+    }
+    #none, .bird {
+        display: none;
+    }
+    .slick-dotted.slick-slider {
+        margin-left: 0;
+    }
+    .bird-mobile {
+        display: block;
+        width: auto;
+        height: auto;
+        right: -60px;
+    }
+    .bird-mobile img {
+        max-width: 46%;
+    }
+    .right-vertical::after {
+        bottom: 240px;
+    }
+    .right-vertical::before {
+        top: 190px;
+    }
+}
+@media screen and (max-width: 840px) {
+    .footer-wrapper {
+        padding: 0 20px;
+    }
+    .footer-title {
+        font-size: 46px;
+        width: 410px;
+    }
+}
+@media screen and (max-width: 714px) {
+    .content-block {
+        padding: 0;
+    }
+}
+@media screen and (max-width: 710px) {
+    .footer-block {
+        padding-right: 50px;
+    }
+    .last-footer {
+        padding-top: 25px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .left-footer {
+        width: 100%;
+    }
+    .right-footer {
+        padding-top: 10px;
+        justify-content: space-between;
+    }
+    .left-footer, .right-footer {
+        width: auto;
+    }
+}
+@media screen and (max-width: 576px) {
+    .content-block {
+        width: 88%;
+    }
+    .content-block-text {
+        width: 400px;
+        font-size: 38px;
+    }
+    .right-vertical {
+        padding-top: 120px;
+        justify-content: flex-start;
+    }
+    .left-vertical {
+        padding-bottom: 200px;
+    }
+    .left-vertical::after {
+        bottom: 250px;
+    }
+    .right-vertical::before {
+        top: 10px;
+        right: -14px;
+    }
+    .right-vertical::after {
+        bottom: 450px;
+        right: -13px;
+    }
+    .mobile-logo {
+        padding: 36px 40px;
+    }
+    .bird-mobile img {
+        max-width: 40%;
+    }
+    .bird-mobile {
+        right: -75px;
+    }
+    .privacy-header-title {
+        font-size: 38px;
+    }
+    .privacy-policy-title {
+        font-size: 32px;
+    }
+    .title {
+        font-size: 24px;
+    }
+    .text {
+        font-size: 21px;
+    }
+    .container {
+        padding: 0 20px;
+    }
+    .pad-left {
+        padding: 20px 0 0px 50px;
+    }
+    .ul--text {
+        padding-left: 30px;
+    }
+}
+@media screen and (max-width: 510px) {
+    .right-vertical::after {
+        right: -18px
+    }
+    .right-vertical::before {
+        right: -18px
+    }
+  
+}
+@media screen and (max-width: 478px) {
+    .slick-list {
+        width: 300px;
+        height: 300px;
+    }
+    .content-block {
+        width: 86%;
+    }
+    .right-vertical::after {
+        bottom: 356px;
+        right: -14px
+    }
+    .right-vertical::before {
+        right: -14px
+    }
+    .left-vertical::after {
+        bottom: 225px;
+    }
+    .left-vertical::before {
+        top: -35px;
+    }
+}
+@media screen and (max-width: 460px) {
+    .content-block-text {
+        width: 270px;
+        font-size: 30px;
+    }
+    .right-vertical::after {
+        bottom: 322px;
+    }
+}
+@media screen and (max-width: 430px) {
+    .footer-title {
+        font-size: 34px;
+        width: 279px;
+    }
+}
+@media screen and (max-width: 390px) {
+    .slick-list {
+        width: 270px;
+        height: 270px;
+    }
+    .content-block {
+        width: 83%;
+    }
+    .right-vertical::after {
+        bottom: 296px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .right-vertical::before {
+        right: -18px;
+    }
+    .right-vertical::after {
+        right: -18px;
+    }
+}
+@media screen and (max-width: 325px) {
+    .right-footer-txt {
+        padding-right: 20px;
+    }
+    .right-vertical::before {
+        right: -24px;
+    }
+    .right-vertical::after {
+        right: -24px;
+    }
+}
