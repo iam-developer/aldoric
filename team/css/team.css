@@ -132,6 +132,18 @@
     padding: 50px 0 0;
 }
 
+.mob-contacts {
+    font-family: 'Inter-Regular-400';
+    font-size: 20px;
+    line-height: 35px;
+    color: hsla(0,0%,100%,.75);
+    display: none;
+    padding-left: 10px;
+}
+.convert {
+    color: #99daf2;
+}
+
 .banner--team .banner__caption {
     min-height: auto;
 }
@@ -143,9 +155,6 @@
 .banner--team.light .banner__caption {
     color: #404F56;
 }
-
-
-.header-main+.header-main__spacer {}
 
 .header-aside,
 .header__mobile-toggle .header__mobile-toggle--purple {
@@ -371,6 +380,9 @@
 }
 
 @media screen and (max-width: 767px) {
+    .mob-contacts {
+        display: block;
+    }
     .see--yourself--here {
         flex-direction: column;
     }
@@ -412,7 +424,7 @@
         font-size: 26px;
     }
     .mob-menu-links {
-        padding: 40px 0 0 10px;
+        padding: 10px 0 0 10px;
     }
     .logo-block {
         display: none;

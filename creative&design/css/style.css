@@ -112,12 +112,25 @@ p {
     transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
 }
 .mobile-menu ul li a {
-    color: #fff;
+    color: #DEDEDE;
     padding-left: 40px;
     font-size: 22px;
     font-family: 'Inter-Regular-400';
     opacity: 0;
     transition: .7s;
+}
+.mob-contacts {
+    position: absolute;
+    bottom: 0;
+    left: 14%;
+    margin-bottom: 30px;
+    font-family: 'Inter-Regular-400';
+    font-size: 20px;
+    line-height: 35px;
+    color: hsla(0,0%,100%,.75);
+}
+.convert {
+    color: #99daf2;
 }
 .effect1.active-effect {
     opacity: 1;
@@ -154,8 +167,8 @@ p {
 }
 .mobile-menu ul {
     position: absolute;
-    left: 25%;
-    top: 50%;
+    left: 22%;
+    top: 46%;
     transform: translate(-50%, -50%);
 }
 .mobile-menu ul li {
@@ -208,14 +221,14 @@ ul li {
     margin-top: 200px;
 }
 .header__title {
-    font-family: 'Inter-bold';
+    font-family: 'Inter-Bold';
     font-size: 60px;
     color: #fff;
     font-weight: bold;
     margin: 20px 0 45px;
 }
 .header__btn {
-    font-family: 'Inter-bold';
+    font-family: 'Inter-Bold';
     font-size: 14px;
     color: #fff;
     padding: 20px 60px;
@@ -235,7 +248,7 @@ ul li {
     padding: 50px 0 80px;
 }
 .second__sec__txt {
-    font-family: 'Inter-Bold';
+    font-family: 'Inter-Medium-500';
     font-size: 32px;
     color: #222222;
     margin: 0 auto;
@@ -245,14 +258,14 @@ ul li {
     margin: 50px auto;
 }
 .second__sec__title {
-    font-family: 'Inter-bold';
+    font-family: 'Inter-Medium-500';
     font-size: 36px;
     color: #222222;
     margin: 0 auto;
     font-weight: bold;
 }
 .second__sec__mini__txt {
-    font-family: 'Inter-Regular';
+    font-family: 'Inter-Regular-400';
     font-size: 18px;
     color: #999999;
     margin: 0 auto;
@@ -289,13 +302,13 @@ ul li {
     padding-top: 30px;
 }
 .we__do__title {
-    font-family: 'Inter-Bold';
+    font-family: 'Inter-SemiBold-600';
     font-size: 20px;
     color: #222222;
     margin-top: 30px;
 }
 .we__do__txt {
-    font-family: 'Inter-Regular';
+    font-family: 'Inter-Regular-400';
     font-size: 14px;
     color: #777777;
     margin-top: 10px;
@@ -491,6 +504,7 @@ ul li {
 }
 .pos---text {
     padding: 0;
+    font-family: 'Inter-Regular-400';
 }
 .ppp {
     padding: 0;

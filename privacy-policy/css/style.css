@@ -155,12 +155,25 @@ p {
     transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
 }
 .mobile-menu ul li a {
-    color: #fff;
+    color: #DEDEDE;
     padding-left: 40px;
     font-size: 22px;
     font-family: 'Inter-Regular-400';
     opacity: 0;
     transition: .7s;
+}
+.mob-contacts {
+    position: absolute;
+    bottom: 0;
+    left: 14%;
+    margin-bottom: 30px;
+    font-family: 'Inter-Regular-400';
+    font-size: 20px;
+    line-height: 35px;
+    color: hsla(0,0%,100%,.75);
+}
+.convert {
+    color: #99daf2;
 }
 .effect1.active-effect {
     opacity: 1;
@@ -190,19 +203,19 @@ p {
     color: #fff;
     font-size: 60px;
     cursor: pointer;
-    margin: 10px 30px;
+    margin: 20px 30px;
     position: absolute;
     top: 0;
     right: 0;
 }
 .mobile-menu ul {
     position: absolute;
-    left: 20%;
-    top: 50%;
+    left: 22%;
+    top: 46%;
     transform: translate(-50%, -50%);
 }
 .mobile-menu ul li {
-    margin: 30px 0;
+    margin: 37px 0;
 }
 
 /* ////////////////////////////     PRIVACY POLICY      /////////////////// */
@@ -225,7 +238,7 @@ p {
     padding: 30px 0;
 }
 .privacy-policy-title {
-    font-family: 'Inter-Regular-400';
+    font-family: 'Inter-Medium-500';
     font-size: 44px;
     color: #000;
     padding: 30px 0 10px;

@@ -55,8 +55,20 @@ a {
     margin-right: 20px;
 }
 .header-main .nav--primary ul li a {
-    font-size: 16px;
+    font-size: 22px;
     font-family: 'Inter-Regular-400';
+    color: #DEDEDE;
+}
+.mob-contacts {
+    padding-left: 15px;
+    font-family: 'Inter-Regular-400';
+    font-size: 20px;
+    line-height: 35px;
+    color: hsla(0,0%,100%,.75);
+    display: none;
+}
+.convert {
+    color: #99daf2;
 }
 .main-header--peek .header-main {
     padding: 0;
@@ -310,6 +322,9 @@ a {
     .main-header--scrolling .header-main.header-main--sticky-yellow {
         background: #30CBC2;
     }
+    .mob-contacts {
+        display: block;
+    }
     .bird-img {
         display: none;
     }
@@ -323,9 +338,13 @@ a {
         padding: 26px;
     }
     .header-main .header__mobile-navigation {
-        padding-top: 140px;
+        padding-top: 40px;
         padding-left: 40px;
+        padding-bottom: 30px;
         background-color: #404F56;
+    }
+    .nav--primary ul li {
+        margin-bottom: 1.2em;
     }
     .logo-link-mobile {
         padding: 0;

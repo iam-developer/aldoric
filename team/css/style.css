@@ -9587,7 +9587,7 @@ body:not(.main-header--scrolling) .header-main--white .logo svg path {
 .nav--primary ul li {
     margin-right: 2.38888889vw;
     display: block;
-    margin-bottom: .66666667em;
+    margin-bottom: 1.2em;
     transition: opacity .3s ease-in-out, transform .3s ease-in-out
 }
 
@@ -9634,7 +9634,7 @@ body:not(.main-header--scrolling) .header-main--white .logo svg path {
 }
 
 .header-main .nav--primary ul li a {
-    color: #fff
+    color: #DEDEDE;
 }
 
 @media (min-width:768px) {
@@ -14073,11 +14073,21 @@ body:not(.main-header--scrolling) .header-main--white .nav--primary ul li a {
         left: 100vw;
         top: 0;
         z-index: 999;
-        padding: 26px 33px 85px;
+        padding: 80px 38px 30px;
         transition: opacity .2s ease-in-out;
         overflow-y: scroll;
         -webkit-overflow-scrolling: touch;
         opacity: 0
+    }
+}
+@media screen and (max-width: 380px) {
+    .header-main .header__mobile-navigation {
+        padding: 55px 38px 30px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .header-main .header__mobile-navigation {
+        padding: 30px 38px 30px;
     }
 }
 

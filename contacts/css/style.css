@@ -9566,7 +9566,7 @@
                                         .nav--primary ul li {
                                             margin-right: 2.38888889vw;
                                             display: block;
-                                            margin-bottom: .66666667em;
+                                            margin-bottom: 1em;
                                             transition: opacity .3s ease-in-out, transform .3s ease-in-out
                                         }
                                         
