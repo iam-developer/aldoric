@@ -55,9 +55,7 @@ a {
     margin-right: 20px;
 }
 .header-main .nav--primary ul li a {
-    font-size: 22px;
     font-family: 'Inter-Regular-400';
-    color: #DEDEDE;
 }
 .mob-contacts {
     padding-left: 15px;
@@ -327,6 +325,10 @@ a {
     }
     .bird-img {
         display: none;
+    }
+    .header-main .nav--primary ul li a {
+        font-size: 22px;
+        color: #DEDEDE;
     }
     #logo-mob {
         display: none;
