@@ -33,6 +33,7 @@
         font-size: 20px;
         line-height: 35px;
         color: hsla(0,0%,100%,.75);
+        display: none;
     }
     .convert {
         color: #99daf2;
@@ -364,6 +365,9 @@
     .header-main .header__mobile-navigation {
         background: #404F56;
         padding: 40px 33px 30px 50px;
+    }
+    .mob-contacts {
+        display: block;
     }
 }
 @media screen and (max-width: 1100px) {
