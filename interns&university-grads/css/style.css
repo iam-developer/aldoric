@@ -325,16 +325,12 @@ ul li {
 
 /* //////////////////////////       CONTACT US      //////////////////// */
 
-.contact__us {
-    padding-top: 70px;
-}
 .contacts__title {
-    font-family: 'Inter-ExtraBold-800';
-    font-size: 107px;
+    font-family: 'Inter-Bold';
+    font-size: 72px;
+    margin: 0 auto;
     color: #404F56;
-    margin-top: 20px;
-    padding: 0;
-    line-height: 126px;
+    line-height: 82px;
 }
 .contacts__txt {
     font-family: 'Inter-Medium-500';
@@ -343,10 +339,6 @@ ul li {
     color: #404F56;
     padding-top: 40px;
 }
-.students-img {
-    max-width: 100%;
-}
-
 .btn {
     color: #fff;
     border: 0;
@@ -474,9 +466,7 @@ ul li {
 .right-footer-txt:last-child {
     padding-right: 0;
 }
-.slick-dotted.slick-slider {
-    margin-left: 50px;
-}
+
 
 
 /* ============== CREATIVE & DESIGN =============== */
