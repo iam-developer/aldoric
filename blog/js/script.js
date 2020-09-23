@@ -1,0 +1,126 @@
+
+$(document).ready(function () {
+
+    // First slider:
+
+var firstSlider = $('.slider-container');
+var secondSlider = $('.second--slide');
+
+  firstSlider.slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: true,
+    arrows: false,
+    responsive: [
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false
+        
+      }
+    },
+    ]
+  });
+  
+  // Second slider:
+
+  secondSlider.slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    centerMode: true,
+    centerPadding: '20px',
+    dots: true,
+    arrows: false,
+    responsive: [
+    {
+      breakpoint: 850,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        arrows: false,
+        centerMode: false
+      }
+    },
+    {
+      breakpoint: 640,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        centerMode: false
+        
+      }
+    },
+    ]
+  });
+
+  // Function for mobile menu:
+ $('.bird__mob').on('click', function() {
+  $('.mobile-menu').addClass('show-menu');
+  $('.mobile-item').addClass('active-effect');
+});
+$('.close-menu').on('click', function() {
+  $('.mobile-menu').removeClass('show-menu');
+  $('.mobile-item').removeClass('active-effect');
+});
+
+  // When hover to the button "WORK WITH US":
+  $( ".btn" ).hover(function() {
+      $('.btn__txt').css('background-color','#99daf2');
+      $('.btn__right').css('background-color', '#99daf2');
+    }, function() {
+      $('.btn__txt').css('background-color','#EAB614');
+      $('.btn__right').css('background-color', '#EAB614');
+  });
+
+  // When window is scrolling:
+  $(window).scroll(function() {
+    $('.desktop__logo').css('display', 'none');
+    $('.mobile__logo').css('display', 'none');
+    $('.header__wrapper').css('padding', '10px 40px');
+    $('.header__wrapper').css('margin-top', '0');
+    $('.header__wrapper').css('box-shadow', 'none');
+
+    if($(this).scrollTop() != 0) {
+      $(".bird").css('visibility', 'visible');
+      $('.header').css('visibility', 'hidden');
+      $('.header').css('background-color', 'transparent');
+    }
+    else {
+      $(".bird").css('visibility', 'hidden');
+      $('.header').css('visibility', 'visible');
+      $('.desktop__logo').css('display', 'block');
+    }
+  });
+
+  // When hover to the bird:
+  $('.bird').hover(function() {
+    $(".bird").css('visibility', 'hidden');
+    $('.header').css('visibility', 'visible');
+    $('.header').css('background-color', '#30CBC2');
+    $('.mobile__logo').css('display', 'block');
+    $('.header__wrapper').css('padding', '18px 40px');
+    $('.header__wrapper').css('margin-top', '5px');
+    $('.header__wrapper').css('box-shadow', '0px -6px 0px #bdbdc0');
+  });
+
+
+
+  $(document).load($(window).bind("resize", checkPosition));
+
+  function checkPosition()
+  {
+      if($(window).width() < 767)
+      {
+        $('.mobile__logo').css('display', 'none');
+        $('.header').css('display', 'none');
+      } else {
+        $('.header').css('display', 'block');
+      }
+    }
+});
+
