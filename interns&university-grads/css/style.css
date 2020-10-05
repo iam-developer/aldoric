@@ -262,6 +262,21 @@ ul li {
 .border {
     margin: 120px auto;
 }
+.slider--cont,
+.slick--container {
+    margin-top: 60px;
+}
+.slider22 {
+    outline: none;
+    padding: 0 19px 0 32px;
+}
+.slide33 {
+    outline: none;
+    padding: 0 19px 0 32px;
+}
+.slick-slide img {
+    max-width: 100%;
+}
 .second__sec__title {
     font-family: 'Inter-Medium-500';
     font-size: 36px;
@@ -565,5 +580,5 @@ ul li {
     margin-top: 20px;
 }
 .slick__slider {
-    padding: 100px 0;
+    padding: 100px 0 0;
 }

@@ -67,18 +67,60 @@ $('.close-menu').on('click', function() {
       }
   
     }
+});
+
+$(document).ready(function() {
 
 //  Slick slider:
 
-$('.slider--cont').slick({
-  dots: true,
-  infinite: true,
-  slidesToShow: 1,
-  autoplay: true,
-  autoplaySpeed: 2000,
-  waitForAnimate: false,
-  slidesToScroll: 1,
-});
+  $('.slider--cont').slick({
+    dots: false,
+    infinite: true,
+    slidesToScroll: 1,
+    centerMode: true,
+    waitForAnimate: false,
+    centerMode: true,
+    centerPadding: '60px',
+    slidesToShow: 3,
+    responsive: [
+      {
+        breakpoint: 1170,
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+      {
+        breakpoint: 860,
+        settings: {
+          slidesToShow: 1,
+        }
+      },
+    ]
+  });
 
+  $('.slick--container').slick({
+    dots: false,
+    infinite: true,
+    slidesToScroll: 1,
+    centerMode: true,
+    waitForAnimate: false,
+    centerMode: true,
+    centerPadding: '60px',
+    slidesToShow: 3,
+    responsive: [
+      {
+        breakpoint: 1170,
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+      {
+        breakpoint: 860,
+        settings: {
+          slidesToShow: 1,
+        }
+      },
+    ]
+  });
 });
 

@@ -28,6 +28,14 @@
         width: 75%;
     }
 }
+@media screen and (max-width: 860px) {
+    .slider22 {
+        padding: 0 7px;
+    }
+    .slide33 {
+        padding: 0 7px;
+    }
+}
 @media screen and (max-width: 840px) {
     .footer-wrapper {
         padding: 0 20px;
