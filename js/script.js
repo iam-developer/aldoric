@@ -51,7 +51,7 @@
   });
 
 
-  
+
 // Effects for blocks:
 
 const animItems = document.querySelectorAll('.anim-item');
@@ -91,3 +91,5 @@ if(animItems.length > 0) {
 }
 
 setTimeout(showAnimation, 800);
+
+

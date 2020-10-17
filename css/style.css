@@ -355,6 +355,18 @@ p {
     height: 400px;
     opacity: 0;
     transform: translate(0px, 5px);
+    transition: .4s;
+}
+
+
+#footer--btn.active--btn {
+    transition: 7s;
+    transform: rotate(360deg);
+}
+
+
+.card:hover .card-text {
+    color: #000;
 }
 .card1.active__class {
     opacity: 1;
@@ -380,6 +392,7 @@ p {
     font-family: 'Inter-SemiBold-600';
     color: #404F56;
     padding: 8px 0;
+    transition: .3s;
 }
 .card span {
     font-size: 16px;
@@ -426,6 +439,7 @@ p {
 }
 .work-with-us:hover {
     background-color: yellow;
+    border: 1px solid yellow;
 }
 .footer-container {
     display: flex;
