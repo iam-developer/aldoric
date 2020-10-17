@@ -301,9 +301,10 @@ ul li {
     padding: 70px 0 60px;
 }
 .second-slide-title {
-    font-family: 'Inter-Regular-400';
+    font-family: 'Inter-SemiBold-600';
     font-size: 44px;
     color: #000;
+	text-align: center;
     margin-bottom: 50px;
 }
 .second--slide_block {
@@ -319,7 +320,7 @@ ul li {
 }
 .slide--mini--text {
     font-family: 'Inter-Regular-400';
-    font-size: 16px;
+    font-size: 15px;
     color: #222222;
     margin-top: 12px;
 }
@@ -382,7 +383,7 @@ ul li {
     padding: 30px 110px;
 }
 .banner--title {
-    font-family: 'Inter-Regular-400';
+    font-family: 'Inter-SemiBold-600';
     font-size: 48px;
     font-weight: 600;
     color: #000;

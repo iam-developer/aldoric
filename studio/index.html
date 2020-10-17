@@ -3,75 +3,15 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <script>
-        document.documentElement.classList.remove('no-js');
-        document.documentElement.classList.add('js')
-
-        var prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
-
-        if (prefersReducedMotion.matches) {
-            document.documentElement.classList.add('reduced-motion');
-        } else {
-            document.documentElement.classList.remove('reduced-motion');
-        }
-
-        // First we get the viewport height and we multiple it by 1% to get a value for a vh unit
-        var vh = window.innerHeight * 0.01;
-        // Then we set the value in the --vh custom property to the root of the document
-        document.documentElement.style.setProperty('--vh', vh + 'px');
-
-        // We listen to the resize event
-        window.addEventListener('resize', function() {
-            // We execute the same script as before
-            var vh = window.innerHeight * 0.01;
-            document.documentElement.style.setProperty('--vh', vh + 'px');
-        });
-    </script>
-    <script>
-        (function(w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                'gtm.start': new Date().getTime(),
-                event: 'gtm.js'
-            });
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != 'dataLayer' ? '&l=' + l : '';
-            j.async = true;
-            j.src =
-                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-WNB8PTD');
-    </script>
     <link rel="stylesheet" href="css\style.css?v=1598425104" media="screen">
-    <link rel="stylesheet" href="css\print.css?v=1598425104" media="print"><noscript>
+    <link rel="stylesheet" href="css\print.css?v=1598425104" media="print">
+    <noscript>
     <link rel="stylesheet" href="css\no-js.css" media="screen">
     </noscript>
     <meta name="theme-color" content="#1b1d1e">
     <link rel="apple-touch-icon" href="images\favicons\apple-touch-icon.png">
     <title>Aldoric | Studio</title>
-    <meta name="description" content="Since 2010 we’ve been working with amazing organisations to create meaningful impact and compelling experiences that deliver results.">
-    <meta name="robots" content="index, follow">
-    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-    <link rel="canonical" href="index.htm">
-    <meta property="og:locale" content="en_US">
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="Websites, eCommerce &amp; Apps | Humaan: World-class digital">
-    <meta property="og:description" content="Since 2010 we’ve been working with amazing organisations to create meaningful impact and compelling experiences that deliver results.">
-    <meta property="og:url" content="https://humaan.com/about/">
-    <meta property="og:site_name" content="Humaan: World class digital products">
-    <meta property="article:publisher" content="https://www.facebook.com/humaan">
-    <meta property="article:modified_time" content="2020-05-25T08:06:28+00:00">
-    <meta property="og:image" content="https://humaan.com/wp-content/uploads/2020/05/About-OG.png">
-    <meta property="og:image:width" content="1200">
-    <meta property="og:image:height" content="630">
-    <meta property="fb:app_id" content="542871049731483">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:creator" content="@wearehumaan">
-    <meta name="twitter:site" content="@wearehumaan">
     <link rel="stylesheet" href="css/studio.css">
 
 </head>
@@ -101,11 +41,11 @@
                             </div>
                         </div>
                         <div>
-                            <button class="header__mobile-toggle header__mobile-toggle--yellow" data-component="nav-toggle"> 
+                            <button class="header__mobile-toggle header__mobile-toggle--yellow" data-component="nav-toggle">
                         <span class="sticky-face sticky-face--yellow">
                             <img class="mobile-bird-img" src="images/bird-logo.png" alt="">
                         </span>
-                        <span class="hidden">Toggle Mobile Menu</span> 
+                        <span class="hidden">Toggle Mobile Menu</span>
                     </button>
                             <div class="header__mobile-navigation">
                                 <a href="../" class="header__mobile-logo">

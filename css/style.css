@@ -353,6 +353,23 @@ p {
     margin: 50px 15px;
     width: 400px;
     height: 400px;
+    opacity: 0;
+    transform: translate(0px, 5px);
+}
+.card1.active__class {
+    opacity: 1;
+    transform: translate(0px, 0px);
+    transition: .5s ease 0.1s;
+}
+.card2.active__class {
+    opacity: 1;
+    transform: translate(0px, 0px);
+    transition: .5s ease 0.2s;
+}
+.card3.active__class {
+    opacity: 1;
+    transform: translate(0px, 0px);
+    transition: .5s ease 0.3s;
 }
 .card img {
     width: 100%;

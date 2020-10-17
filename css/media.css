@@ -56,6 +56,12 @@
         top: 190px;
     }
 }
+@media screen and (max-width: 878px) {
+    .card {
+        width: 320px;
+        height: 320px;
+    }
+}
 @media screen and (max-width: 840px) {
     .footer-wrapper {
         padding: 0 20px;
@@ -164,11 +170,23 @@
     .right-vertical::after {
         bottom: 322px;
     }
+    .right-vertical::after {
+        right: -16px
+    }
+    .right-vertical::before {
+        right: -16px
+    }
 }
 @media screen and (max-width: 430px) {
     .footer-title {
         font-size: 34px;
         width: 279px;
+    }
+    .right-vertical::after {
+        right: -18px
+    }
+    .right-vertical::before {
+        right: -18px
     }
 }
 @media screen and (max-width: 390px) {
@@ -189,6 +207,10 @@
     }
     .right-vertical::after {
         right: -18px;
+    }
+    .card {
+        width: 300px;
+        height: 300px;
     }
 }
 @media screen and (max-width: 325px) {
